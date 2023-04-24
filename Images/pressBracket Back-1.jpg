@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<xmlMap class_id="0" tracking_level="0" version="0">
+    <count>143</count>
+    <item_version>0</item_version>
+    <item class_id="1" tracking_level="0" version="0">
+        <first class_id="2" tracking_level="0" version="0">
+            <string>xml/components/highlevel/Base/CarbonFibre.xml</string>
+        </first>
+        <second>
+            <string>Fibra di carbonio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/CeramicTiles.xml</string>
+        </first>
+        <second>
+            <string>Piastrelle di ceramica</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/CeramicWhiteware.xml</string>
+        </first>
+        <second>
+            <string>Porcellane di ceramica</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Clay.xml</string>
+        </first>
+        <second>
+            <string>Terracotta</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Cloth.xml</string>
+        </first>
+        <second>
+            <string>Tessuto</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/CloudyGem.xml</string>
+        </first>
+        <second>
+            <string>Gemma torbida</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/ConcretePolished.xml</string>
+        </first>
+        <second>
+            <string>Cemento lucido</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/ConcreteRough.xml</string>
+        </first>
+        <second>
+            <string>Cemento grezzo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Diamond.xml</string>
+        </first>
+        <second>
+            <string>Diamante</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Gel.xml</string>
+        </first>
+        <second>
+            <string>Gel</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Glass.xml</string>
+        </first>
+        <second>
+            <string>Vetro</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/GlassDispersion.xml</string>
+        </first>
+        <second>
+            <string>Dispersione nel vetro</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/GlassFrosted.xml</string>
+        </first>
+        <second>
+            <string>Vetro smerigliato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/GlassThin.xml</string>
+        </first>
+        <second>
+            <string>Vetro sottile</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Glossy.xml</string>
+        </first>
+        <second>
+            <string>Patinato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Lampshade.xml</string>
+        </first>
+        <second>
+            <string>Paralume</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Leather.xml</string>
+        </first>
+        <second>
+            <string>Cuoio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Masonry.xml</string>
+        </first>
+        <second>
+            <string>Muratura</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Matte.xml</string>
+        </first>
+        <second>
+            <string>Opaco</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Metal.xml</string>
+        </first>
+        <second>
+            <string>Metallo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/MetalBrushed.xml</string>
+        </first>
+        <second>
+            <string>Metallo spazzolato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/MetalPolished.xml</string>
+        </first>
+        <second>
+            <string>Metallo lucido</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/MetalSatin.xml</string>
+        </first>
+        <second>
+            <string>Metallo satinato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Mirror.xml</string>
+        </first>
+        <second>
+            <string>Speculare</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Paper.xml</string>
+        </first>
+        <second>
+            <string>Carta</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/PaperTranslucent.xml</string>
+        </first>
+        <second>
+            <string>Carta traslucida</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Plaster.xml</string>
+        </first>
+        <second>
+            <string>Gesso</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/PlasticOpaque.xml</string>
+        </first>
+        <second>
+            <string>Plastica opaca</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/PlasticTranslucentFastSSS.xml</string>
+        </first>
+        <second>
+            <string>Plastica traslucida (SSS rapida)</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/PlasticTranslucentSSS.xml</string>
+        </first>
+        <second>
+            <string>Plastica traslucida (SSS)</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/PlasticTransparent.xml</string>
+        </first>
+        <second>
+            <string>Plastica trasparente</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Rubber.xml</string>
+        </first>
+        <second>
+            <string>Gomma</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Satin.xml</string>
+        </first>
+        <second>
+            <string>Seta</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Skin.xml</string>
+        </first>
+        <second>
+            <string>Involucro</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Stone.xml</string>
+        </first>
+        <second>
+            <string>Pietra</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/StonePolished.xml</string>
+        </first>
+        <second>
+            <string>Pietra lucida</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Suede.xml</string>
+        </first>
+        <second>
+            <string>Scamosciato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Velvet.xml</string>
+        </first>
+        <second>
+            <string>Velluto</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Water.xml</string>
+        </first>
+        <second>
+            <string>Acqua</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/WaxSSS.xml</string>
+        </first>
+        <second>
+            <string>Cera (SSS)</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/Wood.xml</string>
+        </first>
+        <second>
+            <string>Legno</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/WoodGrain.xml</string>
+        </first>
+        <second>
+            <string>Venatura del legno</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Base/WoodVarnished.xml</string>
+        </first>
+        <second>
+            <string>Legno laccato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/Anodized.xml</string>
+        </first>
+        <second>
+            <string>Anodizzato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/CeramicGlaze.xml</string>
+        </first>
+        <second>
+            <string>Vetrina</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/ClearCoat.xml</string>
+        </first>
+        <second>
+            <string>Rivestimento trasparente</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/Flakes.xml</string>
+        </first>
+        <second>
+            <string>Scaglie</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/FlipFlopPaint.xml</string>
+        </first>
+        <second>
+            <string>Vernice cangiante</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/Galvanised.xml</string>
+        </first>
+        <second>
+            <string>Galvanizzato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/GlossFinish.xml</string>
+        </first>
+        <second>
+            <string>Finitura patinata</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/GlossVarnish.xml</string>
+        </first>
+        <second>
+            <string>Lacca patinata</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/HammerPaint.xml</string>
+        </first>
+        <second>
+            <string>Vernice a effetto martellato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/MatteFinish.xml</string>
+        </first>
+        <second>
+            <string>Finitura opaca</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/MatteVarnish.xml</string>
+        </first>
+        <second>
+            <string>Lacca opaca</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/MetalPlating.xml</string>
+        </first>
+        <second>
+            <string>Placcatura in metallo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/PaintEggshell.xml</string>
+        </first>
+        <second>
+            <string>Vernice a guscio d'uovo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/PaintGloss.xml</string>
+        </first>
+        <second>
+            <string>Vernice patinata</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/PaintMatte.xml</string>
+        </first>
+        <second>
+            <string>Vernice opaca</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/PaintPearl.xml</string>
+        </first>
+        <second>
+            <string>Vernice perlata</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/PlasticCoating.xml</string>
+        </first>
+        <second>
+            <string>Rivestimento in plastica</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/PowderCoating.xml</string>
+        </first>
+        <second>
+            <string>Rivestimento in polvere</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Coatings/ThinFilm.xml</string>
+        </first>
+        <second>
+            <string>Pellicola sottile</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Decals/BrushedMetalFoil.xml</string>
+        </first>
+        <second>
+            <string>Lamina in metallo spazzolato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Decals/BrushedPlastic.xml</string>
+        </first>
+        <second>
+            <string>Plastica spazzolata</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Decals/Matte.xml</string>
+        </first>
+        <second>
+            <string>Opaco</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Decals/MetalFoil.xml</string>
+        </first>
+        <second>
+            <string>Lamina in metallo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Decals/Mirror.xml</string>
+        </first>
+        <second>
+            <string>Speculare</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Decals/Satin.xml</string>
+        </first>
+        <second>
+            <string>Seta</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/100WHighPressureSodium.xml</string>
+        </first>
+        <second>
+            <string>Sodio ad alta pressione 100W</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/150WXenonArc.xml</string>
+        </first>
+        <second>
+            <string>Ad arco/xeno 150W</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/27WFluorescent.xml</string>
+        </first>
+        <second>
+            <string>Fluorescente 27W</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/35WHalogen.xml</string>
+        </first>
+        <second>
+            <string>Alogeno 35W</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/3WNaturalWhiteLED.xml</string>
+        </first>
+        <second>
+            <string>LED bianco naturale 3W</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/60WIncandescent.xml</string>
+        </first>
+        <second>
+            <string>Incandescente 60W</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Emission/Candle.xml</string>
+        </first>
+        <second>
+            <string>Candela</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/DeepScratches.xml</string>
+        </first>
+        <second>
+            <string>Scalfitture profonde</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/Dirt1.xml</string>
+        </first>
+        <second>
+            <string>Sporco 1</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/Dirt2.xml</string>
+        </first>
+        <second>
+            <string>Sporco 2</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/Dirt3.xml</string>
+        </first>
+        <second>
+            <string>Sporco 3</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/DustStreaks.xml</string>
+        </first>
+        <second>
+            <string>Strisce di polvere</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/DustUniform.xml</string>
+        </first>
+        <second>
+            <string>Polvere uniforme</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/DustVariable.xml</string>
+        </first>
+        <second>
+            <string>Polvere variabile</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/HeatStainedSteel.xml</string>
+        </first>
+        <second>
+            <string>Acciaio ossidato a caldo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/LinearScratches1.xml</string>
+        </first>
+        <second>
+            <string>Scalfitture lineari 1</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/LinearScratches2.xml</string>
+        </first>
+        <second>
+            <string>Scalfitture lineari 2</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/LinearScratches3.xml</string>
+        </first>
+        <second>
+            <string>Scalfitture lineari 3</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/LinearScratches4.xml</string>
+        </first>
+        <second>
+            <string>Scalfitture lineari 4</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/RadialScratches.xml</string>
+        </first>
+        <second>
+            <string>Scalfitture radiali</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/RustPatches.xml</string>
+        </first>
+        <second>
+            <string>Macchie di ruggine</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/RustUniform.xml</string>
+        </first>
+        <second>
+            <string>Ruggine uniforme</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/highlevel/Surface/Verdigris.xml</string>
+        </first>
+        <second>
+            <string>Verderame</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/AnisotropicConductor.xml</string>
+        </first>
+        <second>
+            <string>Conduttore anisotropo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/AnisotropicDielectric.xml</string>
+        </first>
+        <second>
+            <string>Dielettrico anisotropo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/Backscattering.xml</string>
+        </first>
+        <second>
+            <string>Retrodiffusione</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/Conductor.xml</string>
+        </first>
+        <second>
+            <string>Conduttore</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/Dielectric.xml</string>
+        </first>
+        <second>
+            <string>Dielettrico</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/Diffuse.xml</string>
+        </first>
+        <second>
+            <string>Diffuso</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/DiffuseSSS.xml</string>
+        </first>
+        <second>
+            <string>SSS diffusa</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/DiffuseTransmission.xml</string>
+        </first>
+        <second>
+            <string>Trasmissione diffusa</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/FibreAnisotropic.xml</string>
+        </first>
+        <second>
+            <string>Fibra anisotropa</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/MultiLayeredSSS.xml</string>
+        </first>
+        <second>
+            <string>SSS multistrato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/Ocean.xml</string>
+        </first>
+        <second>
+            <string>Oceano</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/PearlescentSSS.xml</string>
+        </first>
+        <second>
+            <string>SSS perlescente</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/PhysicalTranslucent.xml</string>
+        </first>
+        <second>
+            <string>Fisico traslucido</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/PhysicalTransparent.xml</string>
+        </first>
+        <second>
+            <string>Fisico trasparente</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/SpecularReflection.xml</string>
+        </first>
+        <second>
+            <string>Riflesso speculare</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/SubsurfaceScattering.xml</string>
+        </first>
+        <second>
+            <string>Dispersione subsuperficiale (SSS)</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/ThinwallTransparent.xml</string>
+        </first>
+        <second>
+            <string>Trasparente con pareti sottili</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/TwoLobeAnisoDielectric.xml</string>
+        </first>
+        <second>
+            <string>Dielettrico anisotropo a due lobi</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/TwoLobeDielectric.xml</string>
+        </first>
+        <second>
+            <string>Dielettrico a due lobi</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Base/WovenAnisotropic.xml</string>
+        </first>
+        <second>
+            <string>Anisotropo a trama di tessuto</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Emission/DiffuseEmission.xml</string>
+        </first>
+        <second>
+            <string>Emissione diffusa</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Emission/PhotometricEmission.xml</string>
+        </first>
+        <second>
+            <string>Emissione fotometrica</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Emission/TexturedDiffuseEmission.xml</string>
+        </first>
+        <second>
+            <string>Emissione diffusa testurizzata</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/AnisotropicConductorLayer.xml</string>
+        </first>
+        <second>
+            <string>Conduttore anisotropo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/AnisotropicDielectricLayer.xml</string>
+        </first>
+        <second>
+            <string>Dielettrico anisotropo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/ConductorLayer.xml</string>
+        </first>
+        <second>
+            <string>Conduttore</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/DielectricLayer.xml</string>
+        </first>
+        <second>
+            <string>Dielettrico</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/DiffuseLayer.xml</string>
+        </first>
+        <second>
+            <string>Diffuso</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/DiffuseTransmissionLayer.xml</string>
+        </first>
+        <second>
+            <string>Trasmissione diffusa</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/FlipFlop.xml</string>
+        </first>
+        <second>
+            <string>Cangiante</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/GlossFlakes.xml</string>
+        </first>
+        <second>
+            <string>Scaglie patinate</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/GlossLayer.xml</string>
+        </first>
+        <second>
+            <string>Patinato</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/InterferencePattern.xml</string>
+        </first>
+        <second>
+            <string>Pattern di interferenza</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Finish/SpecularReflectionLayer.xml</string>
+        </first>
+        <second>
+            <string>Riflesso speculare</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/Geometry/BaseGeometry.xml</string>
+        </first>
+        <second>
+            <string>Geometria di base</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Aluminium.xml</string>
+        </first>
+        <second>
+            <string>Alluminio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/AluminiumCopper.xml</string>
+        </first>
+        <second>
+            <string>Alluminio/Rame</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Chromium.xml</string>
+        </first>
+        <second>
+            <string>Cromo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Copper.xml</string>
+        </first>
+        <second>
+            <string>Rame</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Gold.xml</string>
+        </first>
+        <second>
+            <string>Oro</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Iron.xml</string>
+        </first>
+        <second>
+            <string>Ferro</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Lead.xml</string>
+        </first>
+        <second>
+            <string>Piombo</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Mercury.xml</string>
+        </first>
+        <second>
+            <string>Mercurio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Molybdenum.xml</string>
+        </first>
+        <second>
+            <string>Molibdeno</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Nickel.xml</string>
+        </first>
+        <second>
+            <string>Nichel</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Platinum.xml</string>
+        </first>
+        <second>
+            <string>Platino</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Rhodium.xml</string>
+        </first>
+        <second>
+            <string>Rodio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Silver.xml</string>
+        </first>
+        <second>
+            <string>Argento</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Titanium.xml</string>
+        </first>
+        <second>
+            <string>Titanio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Tungsten.xml</string>
+        </first>
+        <second>
+            <string>Tungsteno</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/MeasuredBase/Vanadium.xml</string>
+        </first>
+        <second>
+            <string>Vanadio</string>
+        </second>
+    </item>
+    <item>
+        <first>
+            <string>xml/components/lowlevel/None.xml</string>
+        </first>
+        <second>
+            <string>Nessuno</string>
+        </second>
+    </item>
+</xmlMap>
+</boost_serialization>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       0Ç"#	*ÜHÜ˜†Ç"0Ç"10	`ÜHe 0Çí	+Ç7
+†ÇÉ0Ç0
++Ç7º€öΩ†åGFØjbkº©ùê190319043146Z0
++Ç7 0Åº0Åç pæ›Ì‚D&õëqï
+ws‰›µ˙Æ
+)J
+Ωî1i0
++Ç71Ç 0U
++Ç71G0E0
++Ç7¢Ä 010	`ÜHe  pæ›Ì‚D&õëqï
+ws‰›µ˙Æ
+)J
+Ωî0*ê£ºUÙÖoœ—#Fig|ˇ?ëy10
++Ç71Ç †0}0{
++Ç7m0k O S A t t r V2 : 5 . 1 , 2 : 5 . 2 , 2 : 6 . 0 , 2 : 6 . 1 , 2 : 6 . 2 , 2 : 6 . 3 , 2 : 1 0 . 0   †Ç
+Â0Ç0ÇÓ†3  ƒ"≤˜õy=¨≤    ƒ0	*ÜHÜ˜ 0ÅÑ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110180703204550Z190726204550Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ¡ı≠åpßΩ”È⁄T™C:(Nò,§“YÁòŒfì«‹ÖµeJ¥´…hÎ8›â<Ä"o;lì`ˆ”úIπ„•¡[N"lïÂO´÷BÖÂΩ∆ÈÄÛˆ.9^°⁄8í|€≥™ûYn◊o&˛	3˘Î8Ó§ÜU¢Ûµ4Qm»uòπ	F-}~Í¡€©≤E≈ CMÏ≈öÔs¿ ·Û’ÍüÑ†´â-Ià 0o§"¢Äk(ë)’PX"#Óæ[“n‘çÛ	”Ü†ÈÖ˙≈G“ß\dÔXt«$pN∞ézÛv±‚áPˆá≥cü˙Á' ßzºÎÑY,é;7%	ùw £ÇÇ0Ç~0U%0
++Ç7
++0Uqr»Î±5‹o1Ô!¸≥ªA10TUM0K§I0G1-0+U$Microsoft Ireland Operations Limited10U229879+4379540U#0Ä©)9éƒóxÕê˘ûOö·|UØS0TUM0K0I†G†EÜChttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a+U0S0Q+0ÜEhttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uˇ0 0	*ÜHÜ˜ Ç gr0£‚Ójã
+8Ë˚ˇ÷ÄáD ÓÓ© iSHp6“:Ik~’ò∏¯zîp/c≥ ñË⁄˝º°QBí·†…˜£v+§§?˚rÕ—ïÖmﬂ›◊∫@gM”◊ÿ˘¿,^ëx÷î™WG¿yØœ)CKäÏ∏sËùÂpÑÇÉfuV“∆tá–ÛaeóÆa
+ª[ﬁ™Ù{bs»z∂x [j> {∂†CèÏ˙y~tªäÅû †úô*&4œ˚•Eπ¿öv|˛ ^:‚1∞ënwV*@™H#hIﬁıì©ç$50lzs˚˚⁄â‰Pïñ°âJâvjeà;/†kt˛*0Ç◊0Çø†
+avV     0	*ÜHÜ˜ 0Åà10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0ÅÑ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ›ª¢‰.	„Á≈˜ñiº !Ωi33Ô≠ÀTÄÓÉª≈ ÑŸ˜“ãÛ8∞´§≠-|byˇ„J?5 p„ƒÁk‡ú¿6uÈä1›çpÂ‹7µtFñ([á`#,ø‹G•g˜Q'ûrÎ¶…π;S5|Â”Ï'πá˛π…#	o®Fë¡nñ<A”À£?]jMÏi%(\6ˇ˝C
+î‡¥œﬂ¬‚¬['Ó'x0ã[*	k"âS`,¿hS∫ÏIÛùaåÖh	sD]}¢T+›y˜œ5]l+\Œºú#ãonµ&Ÿ6√O÷'Æπ2;Aí,·«ÕwË™TN˜\áe¥C®≤‡mwÏZ$˙H £ÇC0Ç?0	+Ç7 0U©)9éƒóxÕê˘ûOö·|UØS0	+Ç7
+ S u b C A0UÜ0Uˇ0ˇ0U#0Ä’ˆVÀèË¢\bh—=îê[◊Œöƒ0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*ÜHÜ˜ Ç ¸|qQ•y¬n≤Ô9>º<Rn+?s˛®h–H¶4Mäñ&Ó1Fêay÷ˇ8.EkÙ¿Â(∏⁄èä€	◊«L
+6fjåÏ◊ê®§õπ‚@26vƒ¡Z∆ø‰¿Í”¨√hÔb¨›TlP0X¶Î|˛îßNéÙÏ|ÜsW¬R!s4ZÛ£äV»⁄	Ì¯ã„ŒÙ~éÆˆä˚?…rS∏Îæc‡„=1e∞ÅÂÚ¨Õ§ü=®±õ¬B–êÑ_TˇâÍ∫Gêo∞sNAü@ü_Â°*≤ësä!(Œﬁs9_>´\`Ïﬂ®”	ÈÙˆñÖ∂QàfGç¢∞=Å*hwªëLb{∂¡«∫zá4KbzôÈ ¸ŒJ7…-§W|˛=‹∏Z˙÷ƒ≥Ö:Í≥Ÿn‰i!7ﬁÅ—ˆug”ìW^)9»Ó-·Õ‰Es[–“Œz´ÇFX–^ùÅ≥gØl5ÚºÂ?$‚5¢
+uˆVô‘x,—Î–àù™Òﬂ∫~,c∑õ#!ƒ˘xl‚X6+ëÃ§ŸÚ-∫˘îù@ÌEÒŒä\k>´”p*
+j‡_G—’c
+2ÚØ◊6*pZÂBYqKW∫~ÉÅ!<Ù¡≈πêìàEìÜÈ± ôæòÀ≈ï§]b÷†c Ωuw}=ÛEπüóüÀWÄo3©œw§bY~1Çy0Çu0Åú0ÅÑ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113  ƒ"≤˜õy=¨≤    ƒ0	`ÜHe †Å≈0	*ÜHÜ˜	1	+Ç7
+0
++Ç710
++Ç70/	*ÜHÜ˜	1" (,+©•´[ªlVîÕKÃ¬˚ÖnEvu„<NÖ&#ıe{Dx0Z
++Ç71L0J†$Ä" M i c r o s o f t   W i n d o w s°"Ä http://www.microsoft.com/windows0	*ÜHÜ˜ Ç .·ÌÏ~BêA€ÖÎY∆ó òU¸d° Æﬂ¨u¶AC]¨iÖC•òU hˆ+≥îææ‘%|VÙÓÔ™õ,}“˜±â√Ã.M_ï√öl˚6*sÖC,±™@ˆf0S¡iŸøÃ !∂
+¬ñ≤à·V«8…ßÎF¥¿&ÿ¯òÆ'7|mwìA ®«gƒ W√Æ
+Jÿ∫¸^w§¸O"*òh‚¯¿¥w—÷%ä…Ωå‚k÷≤Ws™Hq˜s‘>¢≠‹?C<)p¿AP˛ª(∞ı|?„Ø¡í∏Y’9∂√Îpç`UèV&Æ®›OzncR ˚§Ì'â2 Á°‡p”ÙÍÉ\í‚°ÇÂ0Ç·
++Ç71Ç—0ÇÕ	*ÜHÜ˜†Çæ0Ç∫10	`ÜHe 0ÇQ*ÜHÜ˜	†Ç@Ç<0Ç8
++ÑY
+010	`ÜHe  —]†æÍ¶%÷ Ó∏ºK±k’’àŸ´/rdÏìGK=\rW*Ÿ@20190319043230.792Z0ÄÙ†Å–§ÅÕ0Å 10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1&0$UThales TSS ESN:12BC-E3AE-74EB1%0#UMicrosoft Time-Stamp Service†Ç<0ÇÒ0ÇŸ†3   ¯¬_3–µè     ¯0	*ÜHÜ˜ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100181024211429Z200110211429Z0Å 10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1&0$UThales TSS ESN:12BC-E3AE-74EB1%0#UMicrosoft Time-Stamp Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ñè˛7√æo◊à–ûz\’§E»Cën˘Ú%∂#
+^ÿt…”“ZÄ\@·„z9UúÄ#∞ƒ9»ñÎ&&˙Ôz=jZìœÒÏ:z+ß µÒ!Có8∑∑åDmãº	Èõ¿ﬂ—ç¬5¢©Z–r‰∫0√èkHlıXM¢©\·∫Ti√3´:4r’s°r€ì‰Å∞⁄ê·Ω\2‘å¢9ì5√ä5(∫Rºº¢∂qÊ⁄œi¯r‹Èi(HØﬁ¬∫≤}:⁄¢ﬁ_»qy¢<ú≥Ω˚)D¢ﬁ´´rQÈEïÅDMàwçñ”vfóÆGì∆…McÂµâwvfÙ4›«ÎÃ~? £Ç0Ç0UÏóvh)˛OÕt∆%Ú |⁄}◊ß0U#0Ä’c:\ä1êÛC{|F≈3hZÖmU0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0Uˇ0 0U%0
++0	*ÜHÜ˜ Ç ®d~,(^˛lî[]0É˝'°Âªs4Êr≠ ±Ñ›Zu¯˛ÈB˙5Ë: p4ö“û%¶€LøŒÑ»µ»ÉÏ`: ( Òc)k˚jf“Xsun}ÈôPaJqjæê‰™ ç`€ÇÒ˚Øw&îb˜√tC&úµSOr¿ÁIêdï‘c®™°·Mªø ?È«ÇËõn{E;G—C‹Ú¯Ö	:_õ¶‡.ÅÂé¥!INÚe– o±50¢ô;ΩTÜ'êΩjı$cç√v¢Œrk©ËIwˇ~∞•∞»Sª∫pPû»˚IÜ64l.Ë[¯)Çq6æ⁄ƒ√Ï«Ñ˝ojRœ8l˘ÊÔ‚˙∫¥0Çq0ÇY†
+a	Å*     0	*ÜHÜ˜ 0Åà10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ©ºwä: Ï¸óı˙iîktT’•
+ ÇÖ˚Ì|hK,_≈√Âa¬v∑>f+[S'1AïŒ	é|a0Y±0DÒ`àÑTC◊M∏8≥B›ì¨÷s0W&Ç£E–ÍıGÅÕø$`2X`FÚXGÜ2Ñtagë_ÅT±œìLí¡ƒ¶]—an(∆˘ÜÄªﬂa¸F¡'$gr!äØKdâPb±]˝w=Wu¨ΩäBM@Q—ú>gıf¿ñD~Ô–K˝nÂö ±®Úz*
+1⁄Në∂à5Ëx∞ÈôÕ<Á/D∫ßÙ‹dΩ§¡ 	ìxÕ¸º¿…D]^úO"M £ÇÊ0Ç‚0	+Ç7 0U’c:\ä1êÛC{|F≈3hZÖmU0	+Ç7
+ S u b C A0UÜ0Uˇ0ˇ0U#0Ä’ˆVÀèË¢\bh—=îê[◊Œöƒ0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0Å†U ˇÅï0Åí0Åè	+Ç7.0ÅÅ0=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*ÜHÜ˜ Ç ÊàQ‚∆‡ò?Åq=ù£°!o≥Î¶Ãı1æœ‚©˛˙Wm0≥¬≈f…jﬂıÁxΩ«®û%„˘ºÌkTW+QÇD˚πSåÃÙ`ävÃ@@Aõ‹\ˇ\˘^5ò$VKtÔB»Øø∆Ú7}Z?ÚôyJëR Ø8ı/yÅeŸ©µk‰«Œˆ z oK0D$"<œÌ•ñèY)º∂˝·pü2J'˝UØ/˛∂Âé3ªb_ö€W@ÈÒŒôfêåˇjb›≈Jë&‚9ÏJqcù{!m√ú£¢<˙}ñjêx¶m“·ú˘¸8ÿîÙ∆•
+ñÜ§ΩûÆBÉ∏µÄõ"8 µ%ÂdÏ˜Ùø~cY%z.9Wv¢q™äâ∫aßÀöÿGöÄ≈–Õß–Ô}É·;q	ﬂ]tò"a⁄∞PoΩÒ· ﬂÁ1§ì:˜eGxË¯®H´˜ﬁr~akow©ÅÀß	¨9ªÏ∆ÀÿÇ¥rÕÙ∏ÖÄ˚â*T9≤[⁄»Uôzás;Êò-Íç‡3.)ı¿/T'!˜»¨N⁄(∏±©€ñ≤ßB¢…œAM‡Ü˘*ö£f0”ªt2Kﬂc{ıôä/«!ØYµÆ‹D<óPq◊°“≈U„iﬁW¡—ﬁ0¿˝ÃÊM˚ø]OÈù8/ºœX.Ô†P5⁄Ô	'’≥~5∫⁄6€”_èﬁtàI°ÇŒ0Ç70Å¯°Å–§ÅÕ0Å 10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1&0$UThales TSS ESN:12BC-E3AE-74EB1%0#UMicrosoft Time-Stamp Service¢#
+0+ ˙s$  Ö&è◊Â&ﬂÅûÛô†ÅÉ0ÅÄ§~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100	*ÜHÜ˜  ‡:~Í0"20190319043242Z20190320043242Z0w0=
++ÑY
+1/0-0
+ ‡:~Í 0
+ "Ìˇ0 t0
+ ‡;–j 06
++ÑY
+1(0&0
++ÑY
+†
+0 ° °
+0 Ü†0	*ÜHÜ˜ ÅÅ í,Xˇ-kG◊ÔœdÃ‰Úè$ﬂjµÀøEŸLàGîÄEúBœ,WèêøËñ2á#(KR\Å„Ü$êuﬂ6≈}Rh◊åv@åzk/q,ëT^∑)JZÔvFËÅ*L∏>ˆñgV€Ï”¬Ì±v•o‚±ç&˜€{i+L72}'Ãí˛Iº7¢1Ç0Ç	0Åì0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ¯¬_3–µè     ¯0	`ÜHe †ÇJ0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" ®[{2œíùNé°¢¬f√>“ò#oFwMzo0ÊNvÁ0Å˙*ÜHÜ˜	/1ÅÍ0ÅÁ0Å‰0ÅΩ t$Ì2O3Z◊ﬂGÚDûåv:[k8p}Sßëmsú0Åò0ÅÄ§~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ¯¬_3–µè     ¯0" x-˘@xÓ {∆`O-;â≤ßÒﬂ(®º¿O÷≈d˘û0	*ÜHÜ˜ Ç MÍÂœ%c§6‘—mË6ÂGº‚Ÿe¢!¸I+iLªúè≤	È$ˆ‰∑ ¡=ÀªÌ5®Ìé§‹Aœ/}è˜•{€G4∑~sHÚ8€f ≥LlïM9Êv]Kââ_¬ës<±*ËÓO1ÜwLø(Œx—PóÌYH›ååò˛â_Œ‡¯VÂ¡ûá¢±tûÔGSe∫âMƒ“∆»E•Û5Ûºø 8P&nVXL±,–V(1<˛]∂õ~ä?ê>»;[|‘ Ësu!Ã0-∂äCdƒ‚Bcº¥]˛·|æq«åÿåF7˙L—*HOÇ0Ùwá˚∫{æäz;ähQ˚:8,ìa 	Ì¸ZeÊ8ëV                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

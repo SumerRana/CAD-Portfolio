@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>ì˜ì–´</description>
+  <country>kr</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-contextid">English Feature Flag Info Link</message>
+	  OR
+	  <message name="feature-flag-contextid">CONTEXT_ID</message>
+
+	If a context id is specified, a URL will be constructed, along the lines of:
+	https://help.autodesk.com/view/fusion360/<LANG>/?contextId=<CONTEXT_ID>
+	with the language code filled in based on the active language.
+  -->
+  <message name="Additive-General-name">ì ì¸µ ì œì¡°</message>
+  <message name="Additive-General-desc">ì¸ì‡„ ë§¤ê°œë³€ìˆ˜ë¥¼ ì„ íƒí•˜ê³ , ë¹Œë“œ ì„±ê³µì„ ìœ„í•´ ë¶€í’ˆ ë°©í–¥ì„ ìžë™ìœ¼ë¡œ ì§€ì •í•˜ê³ , ì§€ì§€ êµ¬ì¡° ë° ë„êµ¬ ê²½ë¡œë¥¼ ìžë™ìœ¼ë¡œ ìƒì„±í•©ë‹ˆë‹¤. ì§ì ‘ ë‚´ë³´ë‚´ ë¶„ë§ ë² ë“œ ê¸°ê³„ë¥¼ ì„ íƒí•˜ê±°ë‚˜ 3MF íŒŒì¼ì„ ë‚´ë³´ëƒ…ë‹ˆë‹¤.</message>
+  <message name="Additive-General-contextid">EXT-MFG-ADDITIVE-START</message>
+
+  <message name="Additive-FFF-BuildStrategies-name">ì ì¸µ FFF ë¹Œë“œ ì „ëžµ</message>
+  <message name="Additive-FFF-BuildStrategies-desc">ì ì¸µ FFF ë¹Œë“œ ì „ëžµì„ ì‚¬ìš©í•˜ê±°ë‚˜ ì‚¬ìš©í•˜ì§€ ì•Šë„ë¡ ì„¤ì •í•©ë‹ˆë‹¤.</message>
+
+  <message name="Additive-Tech-DED-name">ì ì¸µ ë‹¤ì¤‘ ì¶• ì ì¸µ</message>
+  <message name="Additive-Tech-DED-desc">ë‹¤ì¤‘ ì¶• ì ì¸µ ê¸°ìˆ ì„ ì‚¬ìš©í•˜ì—¬ í”¼ì³ ë§Œë“¤ê¸°ë¥¼ ìœ„í•œ ì ì¸µ ë„êµ¬ ê²½ë¡œë¥¼ ìž‘ì„±í•©ë‹ˆë‹¤. ì˜ˆ: DED(Directed Energy Deposition).</message>
+  <message name="Additive-Tech-DED-contextid">MFG-AM-FEATURE-CONSTRUCTION-PREVIEW</message>
+
+  <message name="Additive-Tech-SLM-name">ì ì¸µ ì œì¡°</message>
+  <message name="Additive-Tech-SLM-desc">Fusion 360ì— ë¶„ë§ ë² ë“œ ê¸ˆì† ì ì¸µ ì œì¡° ê¸°ëŠ¥ì„ ì¶”ê°€í•©ë‹ˆë‹¤. ê¸°ê³„ë¥¼ ì„ íƒí•˜ê³ , í”Œëž«í¼ì—ì„œ ë¶€í’ˆì„ ë°°ì—´í•˜ê³  ë°©í–¥ì„ ì§€ì •í•˜ê³ , ì™„ì „ížˆ ì—°ê´€ëœ ì§€ì§€ êµ¬ì¡°ë¥¼ ìž‘ì„±í•˜ê³ , ëª¨í˜•ì„ ìŠ¬ë¼ì´ìŠ¤í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ë ˆì´ì € ë§¤ê°œë³€ìˆ˜ ë˜ëŠ” 3MF íŒŒì¼ì„ í¬í•¨í•œ ê¸°ë³¸ ë¹Œë“œ íŒŒì¼ì„ ì¶œë ¥í•©ë‹ˆë‹¤.</message>
+  <message name="Additive-Tech-SLM-contextid">EXT-MFG-ADDITIVE-START</message>
+
+  <message name="additive-process-simulation-name">ì ì¸µ í”„ë¡œì„¸ìŠ¤ ì‹œë®¬ë ˆì´ì…˜</message>
+  <message name="additive-process-simulation-desc">ì ì¸µ ì œì¡° ì‹œë®¬ë ˆì´ì…˜ì„ í†µí•´ ì‹¤ì œ ì ì¸µ ì œì¡° í”„ë¡œì„¸ìŠ¤ë¥¼ ë³µì œí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì´ ì†Œí”„íŠ¸ì›¨ì–´ëŠ” ì—´ê¸°ê³„ ì‹œë®¬ë ˆì´ì…˜ì„ ê¸°ì¤€ìœ¼ë¡œ ìž¬ë„í¬ ê°„ì„­ ë“±ì˜ ì¼ë°˜ì ì¸ ì¸ì‡„ ì‹¤íŒ¨ ë° ì™œê³¡ì„ ì˜ˆì¸¡í•©ë‹ˆë‹¤. ì†Œí”„íŠ¸ì›¨ì–´ëŠ” ì‹œë®¬ë ˆì´ì…˜ ê²°ê³¼ë¥¼ ê¸°ì¤€ìœ¼ë¡œ 3D ì¸ì‡„ ì‹œ í˜•ìƒì„ ìžë™ìœ¼ë¡œ ë³´ì •í•˜ì—¬ ì›í•˜ëŠ” ì‰ì´í”„ë¥¼ ì–»ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="additive-process-simulation-contextid">EXT-MFG-ADDITIVE-SIMULATION</message>
+
+  <message name="adaptive-turn-roughing-name">ì ì‘í˜• í„°ë‹</message>
+  <message name="adaptive-turn-roughing-desc">ë²„íŠ¼ ìŠ¤íƒ€ì¼ ë„êµ¬ì— ëŒ€í•´ ì§€ì†ì ì¸ ê²°ì† í„°ë‹ ë„êµ¬ ê²½ë¡œë¥¼ ìƒì„±í•©ë‹ˆë‹¤.</message>
+  <message name="adaptive-turn-roughing-contextid">MFG-REF-TURN-ADAPTIVE-CMD</message>
+
+  <message name="best-fit-name">ë¶€í’ˆ ì •ë ¬</message>
+  <message name="best-fit-desc">ìµœì  ë§žì¶¤ ì •ë ¬ê³¼ ê²°í•©ëœ ê³¡ë©´ ê²€ì‚¬ë¥¼ ì‚¬ìš©í•˜ì—¬, ë‹¨ì¡° ë° ì£¼ì¡°ì™€ ê°™ì€ ê°ê¸°ë‘¥ ì—†ëŠ” ë¶€í’ˆì˜ ì„¤ì •ì„ ìžë™í™”í•©ë‹ˆë‹¤.</message>
+  <message name="best-fit-contextid">MFG-PART-ALIGNMENT</message>
+
+  <message name="cmm-setup-name">CMM ê²€ì‚¬</message>
+  <message name="cmm-setup-desc">íœ´ëŒ€ìš© ì•”ê³¼ ê°™ì€ ë©”ë‰´ì–¼ CMM(ì¢Œí‘œ ì¸¡ì •ê¸°)ìœ¼ë¡œ ì¸¡ì •í•  ìˆ˜ ìžˆë„ë¡ ìƒˆ ì„¤ì • ìœ í˜•ì„ ì¶”ê°€í•©ë‹ˆë‹¤. CAD ëª¨í˜•ì„ ë¬¼ë¦¬ì  ë¶€í’ˆì— ë§žì¶° ì •ë ¬í•˜ê³  ì¸¡ì • ë°ì´í„°ë¥¼ ìˆ˜ì§‘í•˜ì—¬ ì¸¡ì •ëœ ê²°ê³¼ë¥¼ ê³µì¹­ê°’ê³¼ ë¹„êµí•©ë‹ˆë‹¤.</message>
+	
+  <message name="configurable-tolerance-colors-name">ê³µì°¨ ìƒ‰ìƒ</message>
+  <message name="configurable-tolerance-colors-desc">ê²€ì‚¬ ê²°ê³¼ ë° ìŠ¤í†¡ ì‹œë®¬ë ˆì´ì…˜ì˜ ê³µì°¨ ìƒ‰ìƒì„ ì¼ì¹˜í•˜ë„ë¡ ì„¤ì •í•©ë‹ˆë‹¤. ë‘ ê°œì˜ ìƒ‰ìƒ ê·œì¹™ ì¤‘ì—ì„œ ì„ íƒí•  ìˆ˜ ìžˆëŠ” ì„¤ì •ì„ ê¸°ë³¸ ì„¤ì •ì— ì¶”ê°€í•©ë‹ˆë‹¤. ë˜í•œ ìº”ë²„ìŠ¤ì—ì„œëŠ” í”„ë¡œë¸Œ í˜•ìƒ, í”„ë¡œë¸Œ WCS ë° ë©”ë‰´ì–¼ ê²€ì‚¬ì—ì„œ í—ˆìš© ì˜¤ì°¨ë¥¼ ë²—ì–´ë‚˜ëŠ” ëª¨ë“  ê²€ì‚¬ ê²°ê³¼ë¥¼ ì£¼í™©ìƒ‰ìœ¼ë¡œ í‘œì‹œí•˜ê³  ë©”ë‰´ì–¼ ê²€ì‚¬ì˜ ê³µì¹­ ê°’ì€ ê²€ì€ìƒ‰ìœ¼ë¡œ í‘œì‹œí•©ë‹ˆë‹¤.</message>
+  <message name="configurable-tolerance-colors-contextid">MFG-TOLERANCE-COLORS</message>
+
+  <message name="cutting-force-analysis-name">ì ˆë‹¨ë ¥ ë¶„ì„</message>
+  <message name="cutting-force-analysis-desc">ì‹œë®¬ë ˆì´ì…˜ ì¤‘ì— ì ˆë‹¨ë ¥ ë°ì´í„°ë¥¼ ìˆ˜ì§‘í•©ë‹ˆë‹¤.</message>
+
+  <message name="drill-wizard-name">êµ¬ë© ì¸ì‹</message>
+  <message name="drill-wizard-desc">ë” ë¹ ë¥¸ ì£¼ê¸°ë¥¼ ìœ„í•´ êµ¬ë©ì„ ìžë™ìœ¼ë¡œ ì¸ì‹í•˜ê³ , ë„êµ¬ë¥¼ ì„ íƒí•˜ê³ , ìž‘ì—…ì„ íš¨ìœ¨ì ìœ¼ë¡œ ì •ë ¬í•˜ì—¬ ë“œë¦´ë§ì„ ë‹¨ìˆœí™”í•˜ê³  ê°€ì†í™”í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="drill-wizard-contextid">EXT-MFG-HOLE-RECOG</message>
+
+  <message name="fast-3-axis-stock-sim-name">ë¹ ë¦„ 3ì¶• ìŠ¤í†¡ ì‹œë®¬ë ˆì´ì…˜</message>
+  <message name="fast-3-axis-stock-sim-desc">ë¹ ë¦„(3ì¶•ë§Œ í•´ë‹¹) ìŠ¤í†¡ ì‹œë®¬ë ˆì´ì…˜ ì˜µì…˜ì„ ë‹¤ì‹œ ì‚¬ìš©í•˜ë„ë¡ ì„¤ì •í•©ë‹ˆë‹¤.</message>
+  
+  <message name="hig-styled-qt-name">ìŠ¤íƒ€ì¼ ì—…ë°ì´íŠ¸</message>
+  <message name="hig-styled-qt-desc">Fusion Manufactured ëŒ€í™”ìƒìžë¥¼ ìœ„í•´ ì§„í–‰ ì¤‘ì¸ ìŠ¤íƒ€ì¼ ì—…ë°ì´íŠ¸ë¥¼ ì‚´ì§ ì‚´íŽ´ë³´ê² ìŠµë‹ˆë‹¤.</message>
+
+  <message name="import-macro-results-name">ë§¤í¬ë¡œ ì¸ì‡„ ê²°ê³¼ ê°€ì ¸ì˜¤ê¸°</message>
+  <message name="import-macro-results-desc">í”„ë¡œë¸Œ WCS ë˜ëŠ” í”„ë¡œë¸Œ í˜•ìƒ ìž‘ì—…ì— ì˜í•´ ê¸°ê³„ ë„êµ¬ ì œì–´ê¸°ì—ì„œ ìž‘ì„±ëœ 'ì¸ì‡„ ê²°ê³¼'ë¥¼ ê°€ì ¸ì˜µë‹ˆë‹¤.</message>
+  <message name="import-macro-results-contextid">MFG-IMPORT-MACRO-RESULTS</message>
+
+  <message name="inspection-results-projection-name">ê³¡ë©´ CAD í˜•ìƒ íˆ¬ì˜ ê²€ì‚¬</message>
+  <message name="inspection-results-projection-desc">ë¶€í’ˆ í¼ ë˜ëŠ” ìœ„ì¹˜ê°€ CAD íŒŒì¼ê³¼ ë‹¤ë¥¸ í”„ë¡œë¸Œëœ ì ì„ í‰ê°€í•  ë•Œ ë³´ë‹¤ ì •í™•í•œ ê²°ê³¼ë¥¼ ì œê³µí•©ë‹ˆë‹¤. ê³¡ë©´ ê²€ì‚¬ ì „ëžµì˜ ì˜ˆìƒ ì ì´ ì•„ë‹Œ CAD ê³¡ë©´ì„ ê¸°ì¤€ìœ¼ë¡œ ì¸¡ì •ëœ ì ì˜ íŽ¸ì°¨ë¥¼ ê³„ì‚°í•©ë‹ˆë‹¤.</message>
+  <message name="inspection-results-projection-contextid">MFG-PROBE-PROJECT-POINTS</message>
+
+  <message name="invalid-parameter-error-name">ìž˜ëª»ëœ ë§¤ê°œë³€ìˆ˜ ì˜¤ë¥˜</message>
+  <message name="invalid-parameter-error-desc">ë„êµ¬ ê²½ë¡œ ìƒì„± ì‹œê°„ì— ë§¤ê°œë³€ìˆ˜ í™•ì¸ ê²€ì‚¬ë¥¼ ì¶”ê°€í•©ë‹ˆë‹¤.</message>
+
+  <message name="live-machine-connection-name">ë¼ì´ë¸Œ ê¸°ê³„ ë°ì´í„° ì—°ê²°</message>
+  <message name="live-machine-connection-desc">ê³¡ë©´ ê²€ì‚¬ ì „ëžµì— ëŒ€í•œ Haas ì»¨íŠ¸ë¡¤ì—ì„œ í”„ë¡œë¸Œëœ ì ì˜ ë¼ì´ë¸Œ ë°ì´í„° íšë“ì„ í†µí•´ ì‹¤ì‹œê°„ìœ¼ë¡œ ê²°ê³¼ë¥¼ í‰ê°€í•©ë‹ˆë‹¤.</message>
+  <message name="live-machine-connection-contextid">MFG-PROBE-LIVE-CONNECTION</message>
+
+  <message name="live-part-alignment-name">ë¼ì´ë¸Œ ê¸°ê³„ ë¶€í’ˆ ì •ë ¬</message>
+  <message name="live-part-alignment-desc">ë¼ì´ë¸Œ ê¸°ê³„ ë°ì´í„° ì—°ê²°ì„ í†µí•´ ë¶€í’ˆ ì •ë ¬ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="live-part-alignment-contextid">MFG-LIVE-PART-ALIGNMENT-PREVIEW</message>
+
+  <message name="machine-connector-name">ê¸°ê³„ ì»¤ë„¥í„°</message>
+  <message name="machine-connector-desc">ë¶€í’ˆì„ ì •ë ¬í•˜ê±°ë‚˜ ê²€ì‚¬í•˜ê¸° ìœ„í•´ ê¸°ê³„ ë„êµ¬ë‚˜ ê²€ì‚¬ ìž¥ì¹˜ ê°„ì˜ í†µì‹  ë§í¬ë¥¼ ì—½ë‹ˆë‹¤.</message>
+
+  <message name="add-network-machine-name">ë„¤íŠ¸ì›Œí¬ ì‹œìŠ¤í…œ ë¡œì¼€ì´í„°</message>
+  <message name="add-network-machine-desc">ëŒ€í™”ìƒìžë¥¼ ì‚¬ìš©í•˜ì—¬ ë„¤íŠ¸ì›Œí¬ì—ì„œ ì‚¬ìš© ê°€ëŠ¥í•œ ì‹œìŠ¤í…œì„ ì°¾ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  
+  <message name="machine-builder-on-name">ê¸°ê³„ ë¹Œë”</message>
+  <message name="machine-builder-on-desc">ê¸°ê³„ ë¹Œë” ìƒí™©ë³„ í™˜ê²½ì„ ì‚¬ìš©í•˜ì—¬ ê¸°ê³„ ëª¨í˜•ê³¼ ê¸°ê³„ íŒŒì¼ì„ ì—°ê²°í•˜ê³  ì‹œë®¬ë ˆì´ì…˜ ì¤€ë¹„ ìƒíƒœë¡œ ë§Œë“­ë‹ˆë‹¤.</message>
+  <message name="machine-builder-on-contextid">MFG-REF-MACHINE-BUILDER-LM</message>
+
+  <message name="machine-simulation-on-name">ê¸°ê³„ ì‹œë®¬ë ˆì´ì…˜</message>
+  <message name="machine-simulation-on-desc">ì œì¡° ì‹œë®¬ë ˆì´ì…˜ ì¤‘ì— ê¸°ê³„ ë„êµ¬ ì´ë™ì„ ì‹œë®¬ë ˆì´ì…˜í•©ë‹ˆë‹¤. ê¸°ê³„ëŠ” ì‹œë®¬ë ˆì´ì…˜ ì¤€ë¹„ ìƒíƒœê°€ ë˜ì–´ì•¼ í•©ë‹ˆë‹¤(ê¸°ê³„ ë¹Œë” ë¯¸ë¦¬ë³´ê¸° ê¸°ëŠ¥ ì‚¬ìš©).</message>
+  <message name="machine-simulation-on-contextid">MFG-REF-MACHINE-SIM-LM</message>
+  
+  <message name="machine-v2-name">ê¸°ê³„ V2</message>
+  <message name="machine-v2-desc">ì´ëŸ¬í•œ ìƒˆ ê¸°ê³„ ë¹Œë” êµ¬ì„± ë„êµ¬ë¥¼ ì‚¬ìš©í•˜ë©´ ë³´ë‹¤ ë³µìž¡í•œ ë‹¤ì¤‘ì¶• ê¸°ê³„ ìœ í˜•ì„ ì •ì˜í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="manual-measure-name">ë©”ë‰´ì–¼ ê²€ì‚¬</message>
+  <message name="manual-measure-desc">ìº˜ë¦¬í¼, ë§ˆì´í¬ë¡œë¯¸í„° ë˜ëŠ” ë†’ì´ ê²Œì´ì§€ì™€ ê°™ì€ ë©”ë‰´ì–¼ ê²€ì‚¬ ìž¥ì¹˜ë¥¼ ì‚¬ìš©í•˜ì—¬ ë¬¼ë¦¬ì ìœ¼ë¡œ ì¸¡ì •í•  í”¼ì³ ë¦¬ìŠ¤íŠ¸ë¥¼ ìž‘ì„±í•©ë‹ˆë‹¤. ì¸¡ì •ê°’ì„ ê¸°ë¡í•˜ì—¬ ì§€ì •ëœ ê³µì°¨ì™€ ë¹„êµí•˜ê³  í•„ìš”ì— ë”°ë¼ ê²°ê³¼ë¥¼ ê²€ì‚¬ ë³´ê³ ì„œë¡œ ì €ìž¥í•©ë‹ˆë‹¤.</message>
+  <message name="manual-measure-contextid">MFG-CREATE-MANUAL-INSPECTION</message>
+
+  <message name="mesh-check-safety-name">ì§„í–‰ ì¤‘ì¸ í”„ë¡œì„¸ìŠ¤ - ë©”ì‰¬ ì•ˆì „ ê²€ì‚¬</message>
+  <message name="mesh-check-safety-desc">ë©”ì‰¬ ì²˜ë¦¬ì— ìœ íš¨í•œ ë©”ì‰¬ í˜•ìƒì„ ë³´ìž¥í•˜ëŠ” ê²€ì‚¬ë¥¼ ì¶”ê°€í•©ë‹ˆë‹¤. ê²½ê³ : ì´ë¡œ ì¸í•´ ì„±ëŠ¥ ë¬¸ì œê°€ ë°œìƒí•˜ë¯€ë¡œ ì§„í–‰ ì¤‘ì¸ ìŠ¤í†¡ì„ ì‚¬ìš©í•  ë•Œ ë¶ˆì•ˆì •ì„±ì´ ë°œìƒí•  ê²½ìš° ë§ˆì§€ë§‰ ìˆ˜ë‹¨ìœ¼ë¡œ ì‚¬ìš©í•´ì•¼ í•©ë‹ˆë‹¤.</message>
+
+  <message name="pattern-instance-control-name">íŒ¨í„´ ë³µì œ ì œì–´</message>
+  <message name="pattern-instance-control-desc">NC í”„ë¡œê·¸ëž¨ ëŒ€í™”ìƒìžë¥¼ í†µí•´ íŒ¨í„´ì˜ ì²« ë²ˆì§¸ ë³µì œë¥¼ ê²Œì‹œí•˜ë„ë¡ í—ˆìš©í•©ë‹ˆë‹¤.</message>
+  
+  <message name="bottom-up-pattern-unfolding-name">ë‚´í¬ëœ íŒ¨í„´ì˜ ìž‘ì—… ìˆœì„œ</message>
+  <message name="bottom-up-pattern-unfolding-desc">ë¸Œë¼ìš°ì €ì˜ í´ë” ë‚´ì— ìžˆëŠ” í´ë”ì˜ ë³µì œì´ê³ , NC í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•  ë•Œ ìž‘ì—…ì„ ë³´ë‹¤ íš¨ìœ¨ì ìœ¼ë¡œ ì •ë ¬í•˜ëŠ” íŒ¨í„´ ë‚´ íŒ¨í„´ìž…ë‹ˆë‹¤. ê° íŒ¨í„´ì€ ë¸Œë¼ìš°ì €ì—ì„œ ë§¨ ì•ˆìª½ì— ìžˆëŠ” íŒ¨í„´ë¶€í„° ì‹œìž‘í•˜ì—¬ ì§€ì •ëœ ìž‘ì—… ìˆœì„œë¥¼ ì‚¬ìš©í•˜ì—¬ ì •ë ¬ë©ë‹ˆë‹¤. ì´ì „ì—ëŠ” ì •ë ¬ì´ ë¸Œë¼ìš°ì €ì—ì„œ ë§¨ ë°”ê¹¥ìª½ì— ìžˆëŠ” íŒ¨í„´ë¶€í„° ì‹œìž‘í–ˆìŠµë‹ˆë‹¤.</message>
+  <message name="bottom-up-pattern-unfolding-contextid">MFG-REF-PATTERNS</message>
+
+  <message name="new_import_results-name">ê²€ì‚¬ ê²°ê³¼ ê°€ì ¸ì˜¤ê¸°</message>
+  <message name="new_import_results-desc">ê²€ì‚¬ ê²°ê³¼ë¥¼ ê°€ì ¸ì˜¬ ë•Œ í”„ë¡œë¸Œëœ ì ì´ í˜•ìƒ íˆ¬ì˜ë˜ëŠ” ë°”ë””ë¥¼ ì„ íƒí•©ë‹ˆë‹¤.</message>
+  <message name="new_import_results-contextid">MFG-PROBE-IMPORT-RESULTS</message>
+
+  <message name="old-turning-profile-strategy-name">ì´ì „ í”„ë¡œíŒŒì¼ í„°ë‹</message>
+  <message name="old-turning-profile-strategy-desc">ì´ì „ í”„ë¡œíŒŒì¼ í„°ë‹ ì „ëžµì„ ì‚¬ìš©ìœ¼ë¡œ ì„¤ì •í•©ë‹ˆë‹¤. ì œí•œëœ ì‹œê°„ ë™ì•ˆ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="old-pocket-detector-name">2D í¬ì¼“ ê¸°ì¡´ íƒì§€</message>
+  <message name="old-pocket-detector-desc">ì´ í”Œëž˜ê·¸ê°€ ì„¤ì •ë˜ë©´ 2D ì—´ë¦° í¬ì¼“ì˜ íƒì§€ë¥¼ ìœ„í•œ ê¸°ì¡´ ì•Œê³ ë¦¬ì¦˜ì´ ì‚¬ìš©ë©ë‹ˆë‹¤.</message>
+
+  <message name="probe-angle-measure-name">í”„ë¡œë¹™: ì¶• ê°ë„ ì¸¡ì • í•´ì œ</message>
+  <message name="probe-angle-measure-desc">í”„ë¡œë¸Œ í˜•ìƒì´ ìˆ˜ì§ ë©´ì˜ íšŒì „ ê°ë„ë¥¼ ì¸¡ì •í•  ìˆ˜ ìžˆë„ë¡ í—ˆìš©í•©ë‹ˆë‹¤.</message>
+
+  <message name="probe-geometry-strategy-name">í”„ë¡œë¸Œ í˜•ìƒ</message>
+  <message name="probe-geometry-strategy-desc">ê¸°ê³„ì—ì„œ í”„ë¡œë¹™ ì£¼ê¸°ë¥¼ í†µí•´ ì§„í–‰ ì¤‘ì¸ í”¼ì³ë¥¼ ì¸¡ì •í•©ë‹ˆë‹¤. ì¤‘ìš” í”¼ì³ì˜ ì¹˜ìˆ˜ ë° ìœ„ì¹˜ë¥¼ í™•ì¸í•˜ê³ , ë„êµ¬ ë§ˆëª¨ ë§¤ê°œë³€ìˆ˜ë¥¼ ì—…ë°ì´íŠ¸í•˜ê³ , í”„ë¡œê·¸ëž¨ì„ ì¼ì‹œ ì¤‘ì§€í•˜ê±°ë‚˜ ì¤‘ì§€í•˜ì—¬ ë¬¸ì œë¥¼ ì¡°ê¸°ì— í•´ê²°í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="probe-geometry-strategy-contextid">MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="probe-on-pcd-name">PCDì˜ êµ¬ë© ë° ë³´ìŠ¤ í”„ë¡œë¸Œ</message>
+  <message name="probe-on-pcd-desc">í”„ë¡œë¸Œ WCS ë° í”„ë¡œë¸Œ í˜•ìƒ ì „ëžµì˜ ì¶”ê°€ ì˜µì…˜ì„ í†µí•´ PCDì—ì„œ êµ¬ë© ë° ë³´ìŠ¤ì˜ í”„ë¡œë¹™ì„ í—ˆìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="hide-warnings-name">ê²½ê³  ìˆ¨ê¸°ê¸°</message>
+  <message name="hide-warnings-desc">í”„ë¡œê·¸ëž˜ë° ìž‘ì—… ì‹œ ê²½ê³ ê°€ ë°œìƒí•˜ëŠ” ê²½ìš° ê°œë³„ ìž‘ì—…ì„ ì½ê³  ì¶”ê°€ ì£¼ì˜ê°€ í•„ìš”í•˜ì§€ ì•Šë‹¤ê³  íŒë‹¨í•˜ë©´ ê°œë³„ ìž‘ì—…ì— ëŒ€í•œ ê²½ê³ ë¥¼ ìˆ¨ê¸¸ ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì´ ê²½ê³ ëŠ” ìž‘ì—…ì„ ìž¬ìƒì„±í•  ë•Œê¹Œì§€ ìˆ¨ê²¨ì§„ ìƒíƒœë¡œ ìœ ì§€ë©ë‹ˆë‹¤.</message>
+
+  <message name="post-processing-with-legacy-dialog-name">ê¸°ì¡´ ì‚¬í›„ ì²˜ë¦¬ ëŒ€í™”ìƒìžê°€ ìžˆëŠ” ì‚¬í›„ ì²˜ë¦¬ NC ì½”ë“œ</message>
+  <message name="post-processing-with-legacy-dialog-desc">ìƒˆ NC í”„ë¡œê·¸ëž¨ ì‚¬í›„ ì²˜ë¦¬ ì¸í„°íŽ˜ì´ìŠ¤ì—ì„œ ë¬¸ì œê°€ ë°œìƒí•˜ëŠ” ê²½ìš° ì´ì „ ìŠ¤íƒ€ì¼ ì‚¬í›„ ì²˜ë¦¬ ëŒ€í™”ìƒìžë¡œ ë˜ëŒë¦½ë‹ˆë‹¤.</message>
+  <message name="post-processing-with-legacy-dialog-contextid">MFG-POST-PROCESS-OPERATIONS</message>
+
+  <message name="restrict-to-4-axis-name">4ì¶•ìœ¼ë¡œ ì œí•œ</message>
+  <message name="restrict-to-4-axis-desc">ì ì–´ë„ 4ê°œì˜ ì¶•ì´ ìžˆëŠ” ê¸°ê³„ ë„êµ¬ì— ì‚¬ìš©í•˜ê¸° ìœ„í•´ 5ì¶• ì „ëžµì—ì„œ 4ì¶• ë„êµ¬ ê²½ë¡œë¥¼ ìƒì„±í•©ë‹ˆë‹¤. í˜„ìž¬ëŠ” í”Œë¡œìš° ì „ëžµì—ë§Œ ì‚¬ìš©ë©ë‹ˆë‹¤.</message>
+
+  <message name="setup-sheet-configurations-name">ìž‘ì—… ì‹œíŠ¸ êµ¬ì„±</message>
+  <message name="setup-sheet-configurations-desc">ì‚¬ìš©ìž ìž‘ì—… ì‹œíŠ¸ êµ¬ì„±ì„ ìž‘ì„±í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="spun-profile-v2-name">ìŠ¤íŽ€ í”„ë¡œíŒŒì¼</message>
+  <message name="spun-profile-v2-desc">PowerMillì˜ ì´ ê¸°ëŠ¥ì„ ì‚¬ìš©í•˜ì—¬ í„°ë‹ í”¼ì³ ìž‘ì„±ì„ ê°œì„ í•˜ê¸° ìœ„í•´ íšŒì „ëœ ê³¡ë©´ì—ì„œ í”„ë¡œíŒŒì¼ ê³¡ì„ ì„ ìž‘ì„±í•©ë‹ˆë‹¤.</message>
+
+  <message name="strategy-blend-name">í˜¼í•© ì „ëžµ</message>
+  <message name="strategy-blend-desc">2ê°œì˜ ì•ˆë‚´ ë ˆì¼ê³¼ ê³¡ë©´ ì„ íƒì„ í†µí•´ ìž‘ë™í•˜ëŠ” ìƒˆë¡œìš´ í˜¼í•© ì „ëžµì„ ì´ìš©í•´ ê³¡ë©´ ë§ˆê°ì„ ê°œì„ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="strategy-blend-v2-name">í˜¼í•© ì „ëžµ V2</message>
+  <message name="strategy-blend-v2-desc">ì¡°ê°í™”ë¥¼ ì¤„ì´ëŠ” í˜¼í•© ì „ëžµì´ ë”ìš± ê°œì„ ë˜ì—ˆìŠµë‹ˆë‹¤.</message>
+  
+  <message name="strategy-inspect-surface-name">ê³¡ë©´ ê²€ì‚¬</message>
+  <message name="strategy-inspect-surface-desc">ìŠ¤í•€ë“¤ ìž¥ì°© í”„ë¡œë¸Œë¥¼ ì‚¬ìš©í•˜ì—¬ ë³µìž¡í•œ ê³¡ë©´ í˜•ìƒì˜ ì •í™•ì„±ì„ ì¸¡ì •í•˜ë ¤ë©´ ì „ìš© í”„ë¡œë¹™ ë£¨í‹´ì— ì•¡ì„¸ìŠ¤í•©ë‹ˆë‹¤.</message>
+  <message name="strategy-inspect-surface-contextid">MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">íšŒì „ ì „ëžµ</message>
+  <message name="strategy-rotary-desc">4ì¶• ë°€ë§ì„ ìœ„í•œ íšŒì „ ì „ëžµì„ ì‚¬ìš©í•˜ì—¬ ë³µìž¡í•œ ë¹„ê¸°í•˜í•™ì  ì‰ì´í”„ë¥¼ ê¸°ê³„ê°€ê³µí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="strategy-rotary-contextid">MFG-MULTI-AXIS-ROTARY</message>
+
+  <message name="strategy-steep-shallow-name">ê¸‰ê²½ì‚¬ ë° ì™„ë§Œí•œ ê²½ì‚¬ ì „ëžµ</message>
+  <message name="strategy-steep-shallow-desc">ìŠ¤íŒ ì•¤ ì‰˜ë¡œìš° ì˜ì—­ì„ ìœ„í•´ ë‹¨ì¼ ë„êµ¬ ê²½ë¡œë¡œ ê³¡ë©´ ë§ˆë¬´ë¦¬ì™€ ê¸°ê³„ë¥¼ ì•ˆì „í•˜ê²Œ ê°œì„ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. íœ´ì§€ í‘œì‹œë¥¼ í”¼í•˜ê³ , ì»¤ìŠ¤í”„ë¥¼ ì œê±°í•˜ê³ , ë„êµ¬ ìˆ˜ëª… ì—°ìž¥í•©ë‹ˆë‹¤.</message>
+  <message name="strategy-steep-shallow-contextid">MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="template-library-name">í…œí”Œë¦¿ ë¼ì´ë¸ŒëŸ¬ë¦¬</message>
+  <message name="template-library-desc">í…œí”Œë¦¿ì„ ìœ„í•œ ì™„ì „ížˆ ìƒˆë¡œìš´ ì¸í„°íŽ˜ì´ìŠ¤ìž…ë‹ˆë‹¤. í…œí”Œë¦¿ì„ ì €ìž¥í•˜ê±°ë‚˜, ì°¾ì•„ë³´ê±°ë‚˜, ë‹¤ì‹œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="toolpath-modifications-name">ë„êµ¬ ê²½ë¡œ ìˆ˜ì •</message>
+  <message name="toolpath-modifications-desc">ê¸´ ìž¬ê³„ì‚° ì—†ì´ ë„êµ¬ ê²½ë¡œë¥¼ ë³€ê²½í•˜ë ¤ë©´ ê°•ë ¥í•œ ìˆ˜ì • ì˜µì…˜ì— ì•¡ì„¸ìŠ¤í•©ë‹ˆë‹¤.</message>
+  <message name="toolpath-modifications-contextid">MFG-MODIFY-A-TOOLPATH</message>
+
+  <message name="toolpath-edit-trim-boundary-and-plane-name">ê²½ê³„ ë° í‰ë©´ìœ¼ë¡œ ìžë¥´ê¸°</message>
+  <message name="toolpath-edit-trim-boundary-and-plane-desc">ë„êµ¬ ê²½ë¡œ ìžë¥´ê¸° ìˆ˜ì •ì˜ 'ê²½ê³„' ë° 'í‰ë©´' ì˜µì…˜ì„ ì‚¬ìš©í•˜ë„ë¡ ì„¤ì •í•©ë‹ˆë‹¤.</message>
+
+  <message name="toolpath-edit-move-start-points-name">ì§„ìž… ìœ„ì¹˜ ì´ë™</message>
+  <message name="toolpath-edit-move-start-points-desc">Move the entry positions on closed passes, by sketching a line/several lines. The new positions will be showing dynamically but only when the edit is OKed will the toolpath and L&amp;L be modified.</message>
+
+  <message name="tool-library-v4-release-name">ë„êµ¬ ë¼ì´ë¸ŒëŸ¬ë¦¬</message>
+  <message name="tool-library-v4-release-desc">ìƒˆë¡œìš´ ëª¨ì–‘ ë° ìƒˆ ê¸°ëŠ¥ìœ¼ë¡œ ìƒˆë¡œ ê³ ì¹¨í•œ ìƒˆë¡œìš´ ë„êµ¬ ë¼ì´ë¸ŒëŸ¬ë¦¬ë¡œ ë„êµ¬ ì„ íƒê³¼ êµ¬ì„±ì„ ê°œì„ í•˜ê³  ë§¤ê°œë³€ìˆ˜ì˜ í‘œí˜„ì‹ê³¼ ë‹¤ì–‘í•œ ë„êµ¬ë³„ ì ˆë‹¨ ë§¤ê°œë³€ìˆ˜ ì‚¬ì „ ì„¤ì •ì„ í™œìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="tool-library-v4-release-contextid">MFG-REF-TOOL-LIBRARY-NEW</message>
+
+  <message name="extension-multi-axis-name">ë‹¤ì¤‘ì¶• ê¸°ê³„ê°€ê³µ</message>
+  <message name="extension-multi-axis-desc">4ì¶• ë° 5ì¶• CNC ê¸°ê³„ ë„êµ¬ì˜ ë‹¤ì¤‘ì¶• ê¸°ëŠ¥ì„ í™œìš©í•˜ë ¤ë©´ ì¶”ê°€ ì „ëžµ ë° ë„êµ¬ ì¶• ì»¨íŠ¸ë¡¤ì— ì•¡ì„¸ìŠ¤í•©ë‹ˆë‹¤.</message>
+  <message name="extension-multi-axis-contextid">MFG-MULTI-AXIS</message>
+
+  <message name="mfg-working-model-name">ì œì¡° ìž‘ì—… ëª¨ë¸</message>
+  <message name="mfg-working-model-desc">ì œì¡° ìž‘ì—…ê³µê°„ì—ì„œ ì œì¡° ëª¨í˜•ì„ ì‚¬ìš©ìœ¼ë¡œ ì„¤ì •í•©ë‹ˆë‹¤. ë‚´í¬ ë° ì •ë ¬ ê¸°ëŠ¥ì„ ì‚¬ìš©í•˜ëŠ” ë° í•„ìš”í•©ë‹ˆë‹¤.</message>
+  <message name="mfg-working-model-contextid">MFG-MANUFACTURING-MODEL-OVERVIEW</message>
+
+  <message name="import-inventor-cam-data-name">ì—…ë¡œë“œ ì‹œ Inventor CAM ë°ì´í„° ê°€ì ¸ì˜¤ê¸°</message>
+  <message name="import-inventor-cam-data-desc">Fusion ë°ì´í„° íŒ¨ë„ì—ì„œ ì—…ë¡œë“œí•˜ëŠ” Inventor ëª¨í˜•ì—ì„œ ê¸°ì¡´ Inventor CAM ë°ì´í„°ë¥¼ ê°€ì ¸ì˜¬ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="enable-rest-shadow-pocket-name">3D í¬ì¼“ í´ë¦¬ì–´ë§(í™©ì‚­)ì„ ìœ„í•œ ê³µê¸° ì ˆë‹¨ ê°ì†Œ</message>
+  <message name="enable-rest-shadow-pocket-desc">ìŠ¤í†¡ì— ì–¸ë”ì»·ì´ ìžˆì„ ë•Œ ë„êµ¬ ê²½ë¡œ ê³„ì‚°ì„ ê°œì„ í•˜ì—¬ ê³µê¸° ì ˆë‹¨ì´ ì¤„ì–´ë“¤ê²Œ ë©ë‹ˆë‹¤. ì´ë¡œ ì¸í•´ ì¼ë°˜ì ìœ¼ë¡œ ê¸°ê³„ê°€ê³µ ì‹œê°„ì´ í¬ê²Œ ë‹¨ì¶•ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="strategy-improved-flow-name">Flow strategy improvements</message>
+  <message name="strategy-improved-flow-desc">Improves the way the toolpath recognizes surfaces to provide a more precise toolpath. Additionally, for easier programming, the <TITLE>Number of Stepovers</TITLE> parameter gets replaced by a <TITLE>Stepover Distance</TITLE> parameter.</message>
+
+  <message name="online-system-library-name">ìµœì‹  ê²Œì‹œë¬¼ ë° ê¸°ê³„ ìžë™ ê°€ì ¸ì˜¤ê¸°</message>
+  <message name="online-system-library-desc">ê¸°ê³„ ë¼ì´ë¸ŒëŸ¬ë¦¬ ë° ê²Œì‹œë¬¼ ë¼ì´ë¸ŒëŸ¬ë¦¬ì˜ Fusion 360 ë¼ì´ë¸ŒëŸ¬ë¦¬ ì„¹ì…˜ì´ ì‚¬ìš© ê°€ëŠ¥í•´ì§€ë©´ ìµœì‹  ë²„ì „ê³¼ ì¶”ê°€ ê²Œì‹œë¬¼ ë° ê¸°ê³„ë¡œ ì—…ë°ì´íŠ¸ë©ë‹ˆë‹¤. Fusion 360ì„ ë‹¤ì‹œ ì‹œìž‘í•  ë•Œë§ˆë‹¤ ì—…ë°ì´íŠ¸ê°€ í™•ì¸ë©ë‹ˆë‹¤.</message>
+
+  <message name="contour2D-select-faces-name">2D ìœ¤ê³½ì„  ë©´ ì„ íƒ</message>
+  <message name="contour2D-select-faces-desc">ì´ë¥¼ í†µí•´ 2D ìœ¤ê³½ì„  ìž‘ì—…ì„ ìœ„í•´ ë©´ ë° ë™ì¼í•œ í‰ë©´ ë©´ìœ¼ë¡œ í˜•ìƒì„ ì„ íƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+
+  <message name="secondary-spindle-pull-name">ë³´ì¡° ìŠ¤í•€ë“¤ ë‹¹ê¸°ê¸°</message>
+  <message name="secondary-spindle-pull-desc">ë³´ì¡° ìŠ¤í•€ë“¤ ë‹¹ê¸°ê¸° ì „ëžµì„ ì‚¬ìš©í•©ë‹ˆë‹¤.</message>
+
+  <message name="iron-object-states-name">í•­ëª©ì˜ ìƒíƒœë¥¼ ë‚˜íƒ€ë‚´ëŠ” ë¸Œë¼ìš°ì € ì•„ì´ì½˜</message>
+  <message name="iron-object-states-desc">ê°œë³„ ìž‘ì—…, ì„¤ì •, í´ë” ë° NC í”„ë¡œê·¸ëž¨ì— ëŒ€í•´ ë¸Œë¼ìš°ì €ì— ì¶”ê°€ ì•„ì´ì½˜ì´ ë‚˜íƒ€ë‚˜ ìƒíƒœë¥¼ ë‚˜íƒ€ëƒ…ë‹ˆë‹¤. ì•„ì´ì½˜ ìœ„ì— í¬ì¸í„°ë¥¼ ë†“ìœ¼ë©´ ë¡œê·¸ë¥¼ ì—´ í•„ìš” ì—†ì´ ì˜¤ë¥˜ë‚˜ ê²½ê³  ë©”ì‹œì§€ì™€ ê°™ì€ ì¶”ê°€ ì •ë³´ë¥¼ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="iron-object-states-contextid">MFG-TOOLPATH-STATUS-ICONS</message>
+
+  <message name="import-pmi-name">íŒŒì¼ ì—…ë¡œë“œ ì‹œ PMI ë°ì´í„° ê°€ì ¸ì˜¤ê¸°</message>
+  <message name="import-pmi-desc">ë°ì´í„° íŒ¨ë„ì—ì„œ ì—´ ë•Œ ë‹¤ë¥¸ CAD ì‘ìš©í”„ë¡œê·¸ëž¨ì—ì„œ ìž‘ì„±ëœ ë””ìžì¸ì—ì„œ PMI(ì œí’ˆ ì œì¡° ì •ë³´)ë¥¼ ê°€ì ¸ì˜¬ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</message>
+  <message name="import-pmi-contextid">MFG-PMI-FOR-INSPECTION-PREVIEW</message>
+	
+  <message name="turn-in-negative-diameter-name">ìŒìˆ˜ ì§€ë¦„ë§Œí¼ íšŒì „</message>
+  <message name="turn-in-negative-diameter-desc">ê±°ì¹ ê²Œ ë§Œë“¤ê¸° ë° ë§ˆë¬´ë¦¬ ì „ëžµì„ ìœ„í•´ ìŒìˆ˜ ì§€ë¦„ìœ¼ë¡œ í„°ë‹ì„ í—ˆìš©í•©ë‹ˆë‹¤.</message>
+
+  <message name="tool-orientation-accessibility-analysis-name">ë„êµ¬ ë°©í–¥ì— ëŒ€í•œ ì–¸ë”ì»· ë¶„ì„</message>
+  <message name="tool-orientation-accessibility-analysis-desc">ì•¡ì„¸ìŠ¤í•  ìˆ˜ ì—†ëŠ” ì˜ì—­ì„ í™•ì¸í•˜ì—¬ ë„êµ¬ ê²½ë¡œë¥¼ ê³„ì‚°í•˜ê¸° ì „ì— ë„êµ¬ ë°©í–¥ì„ í•„ìš”í•œ ëŒ€ë¡œ ì¡°ì •í•˜ëŠ” ë° ë„ì›€ì´ ë©ë‹ˆë‹¤.</message>
+</locale>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 GIF89a– r ‡     2###/17666Np&|'j&w4x03O-/h<A=<AF7CkAA;HIJIJTMQSPPLUVWIJhJGvKQuQKx[\bVY{]`^]``\cy`_aaa_defjktnrsqorwwy‹–‰–‡™¦»¨¶¢¶ $†%š7”%‹'™7‹6˜*­&)„$*™*6‰&6›48Š7;•%)¦%(¸&6©&7¸1/¾6:¨77µÊ*É5â!î(+Å$*Ý&5È*9Ù58Æ8;Ö14ïA—@¯4D“1L³?b¶NÀ5MÍ9Dì8bËA=´D>ÝA>êDI‡FH—I\ŒFVšQMXX‰W[“EF¥EFºGV¦MV·RN´VV§TY¸Yg‘Vg¯a_«dl†kr‰esš|}‚zw™gfªfg¹jvªitºzz§ts¶OQÑOUòMmÍXm÷`]Òb\úgiÈgh×ktÇjsÓrnËrmÔuyÇswÖgiçhjüjwçlrûpnæpoþwxéwxü~o€£}„¤w…·}¾^‡âp…ÓeŠälŒój‘è}…ä|‚ûv—ç{ò~}€~ƒƒ~Å€ý€~†‡ˆˆŠ•‘ŒŽ‘‘ŒŠ“˜˜˜‡Š¨‰‰º“¾‘®¸šœ¤—˜¸ ¤ ž Ÿ¸ ¡ž§§§©«´®°¯­±³±®®°¯°±°¯¶¶·ˆ‰Å‚„Ú‹“Åˆ•Õ‘Á˜˜Ç“™Ù…ˆè†‡ü‹“ê‘ûý”–ì–˜ü˜¥Öƒ£ëˆªóŽ±÷™ êœ¡ý–·ú œÍ´¶È£¦ê¦¨ýªµäª²ý°¯ÿº»å´·ý¾À¿¼ÁÃ·ÁùÂ½½À½ÌÀÀ¿ÇÇÈÉÉÕÎÐÏÎÐÔÐÎÎÐÐÏÖÖ×ÇÉäÄÅúÏÐâËÔõÙÙãÕØößàÞÞàæàßßàßàààÞçççéêóïðïîðúðïîðïðððïùùù         !ù   ÿ ,    – r  ÿ H° Áƒ*\È°¡Ã‡#JœH±¢Å‹ªÚÈ±£Ç CŠI²¤É“!W¡BÉ’ Ê—¨`ÊŒIs¦Íš8oêÌÉs§Ïž@
+ŠÊ¥ªU«ŽÆLŠTiÓ§K2
+õéT«N™^ÕšUj×ª\_†¥ºÕ«X³d¿–u‰´­[©nãj•K.Ý¸vï¶Í«wn_«wùÊ)Û¿ˆ+^Ì¸ñ]S” S¢$)²ã¿‡/kÞÌ™ó.˜š5³„'+n:ÇÍ¬ºµë×«®pá„­™+<l|,ðÛ%­U¿ƒ.¼8ñãÆ“#_®¼9óçÎ_ùó¬¦=o¬,8à itèÇ	Òÿ<VpóåÏ«OÏžz÷ëá·O?~ýùöóÏ_•åÏ·u¿¼BF
+ÐÁ*÷É§`‚è‰ßx´Ìá„N8^…bH¡…r¡‡Bb‡Žøa‰äaA0µÔ‘<R¶lˆâã9X£‡<öèã@)äÆ2]"ÕTSg°‘Aw5î(aŽdK³\9å–´ØÂ¥—]~)f˜d‚iæ˜g–‰æšj¶i¦-±pQH5ö„SG‚ˆq@«dùæ*PÀ „jh”å¢^6Êè£ŽF
+é¤’VJé¥–fŠé¥­ó>áìAÈp¦–«Œ € \p®Âÿúj¬´^@Ð-¶àªk®¼îêk¯Àþ*l°Äkl±Èûë,•ø‡O3ˆ°D©ÄÂë*& €©d‰+¯à~»ë­¹Î¢«¹åž«nºìÞ‚®»ëÂÛî»ôÆ[ï¼öæ‹¯—\øÇ0h º  À¥«ëÂ¹úzëÂ7ñ-Kl1ÅWŒñÅwœñÇƒ¼ñÈÇ¢¢&˜à²d1’K(0B)4×lóÍ6¯‚ëÃ{Ü³Ä?÷L²Ð@´ÐM4ÒIMrœ}`¢Ž’4©§¼*\wíõ×\¯*@óÌôÙh§­öÚl·ívÏ³È‰Mw
+bÆ¬B3)¥ÿŠß€ÿ-xà €:ßböÛŒ7îøãlwúi8w rG ‹Ð›S|Š JÏw¾¹éï’:Æ›«N1ê·Àî:ê°ŸþúíµÇ~»î¹÷¾»í®#¢	7øƒ%a-·¨Þzó«»~ `‚Ä›Ô¹ó·sºó±è± ‚´RïÐÛ<îé·¿¾úîëî½üè?¿íý~“M"¯d0-w˜€ H@P["Xí´;ç9}¼8Ý,XÁ#ÌÀ1HB˜à)xAˆh…,Ò§º]œŽ{(¤ŸýÚ—Â¶…*l.¦£‰D¨Ì<  >À‡=âÿpæ=°uÚ;¢órá@ÕÉÂg‚“à‚ìÀŠ3P‚ÀÅ)xá†!.Øº\l.‚L<£	˜Æ[ ±ym4ãy±Æ4ÎÑŒp¬£	7Ç…¨%ÉEgHƒ"Ð<\4Ou¼8¤yÇÓµQ{¹@£$ÓÁ[PP;xÁ©xE%A	M åž$aN`d±GFp¼x¥ÓIZÖ–²l¥Í(K^21–»¤%.¸0:Ù	Ow#ä.–ÉKWFÒ™¿”c/wAXZÓš½ˆ$.^a‡#´`+ˆ&§è‚O~r”£Œ‚58(Ha•µ¼fç)ÏHò"›×´§<÷ÉÿÏ~î3ª¸€š1¹<"Ôr£?ÊO‚ôâ¡½g/xQ=°¡à'`0Î$4¡	FB†N"Ì`“3ÂœàC£¸ÀDg*Q‰Ft¦8Í©NwÊÓ\@ C#>-iaŽA”ê85¤°)O!êÐ^èÂª¾à.ô`‡d4£.€AfÐ/ô!hí t”*ÝÂ¦À/òáÃÀ/t!Q_ ¯¹°êC¯JXÁö°†M,bë‹[L`P:ðÏ:0‹üO‡T r[(ö³W%ˆ/z1ÚÒâ¢|hÃ~ ƒŒÂ`R8+Z±Eÿ A)k5ø‚!
+QB\û ×¹2áý1t1…æzñ¿¨…/JKÚêR÷ºÖÍ.v±ÛÕõë,rQ 0Ru¥  $PŠ]lW»Õ-|ï0[@¨!G0‚Yg‹V@DA®çÆÛEB­^ ®·Ð‡w
+_hnƒá/‚µàÅ{7ßí–v´ºè#&¶¡¤„áˆ@,}Ð	„®·¸.‡K+ÚéÚxº{èÃ"v\[òb¶‹Xë7¿*Ö*JA‹hD’ñˆHD¢Šà¼àOøÊX¦ðúpá{ùÃ_³˜C<'ºe€nP€Ü«Š	€ÿ   ­˜ç<Ýùgåñ’AˆBâ)ø*8SPN/$y@t“Ü‰Q8úè„#&¼å,øÀg¥ð !
+\ÐùÓsÖÅ/
+*<´¥Š@** ÄÔt¶³—kÁ=?âÖ‘x$1†|5)B­½ã>h[àC"Ñ‰c8[ÉP3’aŒ]gyÂ˜Æ´ŒÐâž†µ¸ƒ1<|`£|c(Ð ¸Š‹{Î²ö²¡wœh\;9iÈ(° ã3y[Âp°ƒ(A}pv´•Ápf8\_Æ(¡ˆJ÷áŽÂ'_ÐLC¸¿x·˜Á1ÝüÙ#­ÿ(Ã´p€ÈÙ$¹—EÛ_Ôüæ¾hmoëEGBiø¢@Û$ßº‘èÃT€ Ô 
+E8v2¢‡?âÒ¸†Ö·ŽHLY
+ëä-.=áæ*âÕ€¹Í×Žó¶¯Ýæ!þC6Añ¦z$yÍÙ®v·û 5'yàm$óÜç‘E$ !ˆ;$‚`2Ò›ü(áòÇÞ :1u«3ëYßºÖµqiCØí_°ß‹Ë¶þB"já¾Û^ð¶¯9ø@÷
+,ÓÅ=Î…ûµãðàèFÍÅÑ’ï!`2âŸxÅ3‚„HÄ½;	N@¢Š ÿÿŽÑy«ƒ^ô× ý5€!Ì ªç­ÌÚ`LŸõŽ0ÈmÞ|›'ßÿ7÷Ý yxÐ
+fà G u€‚§|ÉÊ€Ø|Ø€gØ­Ð<—k÷¦xŽ6
+Çàhp„€	ÀÐ	h BÀ€ä'mÒöyŸqè§Ò°‚àM+°Qâ”/0`)eeÆ`€qG˜„a‡PÊ§É·è²@	z ÒµÈË'…ø„Qˆ†d€ h÷F}#øh%i„ÀÇÀ	…@¢€æ‡uè§uÑk DÆQ1PEMð[`ö°jUIÿ¸‹|À_ø„dX‰Ì…–È‰˜x‰_Hâ0Š¤È|â ‚ÀŠ€x"8‚mèl°X‚§Ç 	Ø'Ñ`ƒ{hw CöU.ŒC°†O° C×Œi~‰…ÐVPa@ŠÝPŠ£˜Û¸ÉWŠÙ…Ú8ŽäHŽ¢XŽÌ§¢pªèdkÈ†$‹´8‹7up(
+Åz×€ö‹¿l±åOP8 	@pp 	ÀÂ¦ qÈ ÷…¾¦v€Ž)Þ‘‰‘ç¸‘9ŠÞ0âYˆÐ€ÐdF‚ñølÇ@7ƒÊ`‰€Âÿ mà‹‚¶À¶Œ^ CPM§çk+`p; ƒ€	«…àDIÙ
+"É‘ ¹‘$’\IŠYé•ã’Ú(Š$Y–â°•[y–%){À€	¯ø’ó(“žguÉ „ÀWpÿˆÊ¶m;Ðt€ * +PKg˜ˆ9p`VÐZS¹4@)Pji–˜y™š™™œ¹™žÉ™Ñ™˜‰™ÞàÃp…×hò“19‹Ì0ƒWƒÌ°pt- ªØQ ‚Ùt(P˜…¹ @  7@iR™QT9™*@8€¢ù™Ô9Öé™¡y–e¹Ú©™‰¿€šÿ@‚s¹p¯Y— ‡uÌ`–ƒ	€P,M‡ (@ŸM§ $0ÝàºPc@H™4ðœ“IAPÞÙãÀª ú ¡:¡¡¹ j¡ê:áP¢Ðƒ 	2	›æWƒzXz×°œ@i„iŸõ‰ P
+¾0ÞP¥±œÌ)™ÍY 4pà°¡ª¡J¤EŠ¡Š¤DêŠ¤Nú¤OêÔ°€00“ž'4¨‡º¸u´™cñé  0ãÐ¸P	o š”’É£>:™	ÀPZ§vz§xŠ¤Mš§|Z²`€ 	Ñæy 	Ëp~úˆ~Ò€yÿÀqp¥)xp:* §4 ™J{À§žú©vº§ j¡ç° ¥Š¡ÕÐ
+âiu€Ð
+€jYz‰š~´À`	• œ=i˜Z˜ª©	 ©(P£Z¬£J¥š¬ã ¬Ìº¬ÎÚ¬ÍZZáyÆÀZ{àZ7«£—~Ú®×Ð»
+§¿š©šzg ¦ú¬î
+­ï¯ð:¯ñŠ¬Ë*­å¬øª¯ã¯ýê¬øú¯ç ¬ÒÊ¡Ô 
+kà¬ÕÞú­¤÷°Ú@®;:™æ*§èJ= ÄJ°Ì*­Ê:¾à:Ë¤ Ë¯Û¯&›²÷º¬Èº¯(û²þ³»¯³3ÿÛ¯å€¯ûZ‡€¢7è°áªh`©ê£Áª©*­P5{ùº¯2» »°
+¤ 
+ Pµ p  
+Ù¤2ë´6¶Q›¯-ë´fk¶O‹¶f‹²iÛ¶({¶i»¬Õ ‰p¨{±àšäÚ£¿ª©4pl@¬ä0°`«¶¥ú´ã°©°¸©p3¡À<µ”Ý0è`¸m;³˜·K—›³NÛ¶ «¶›¯ŸÛ¹çPÔ@‚ «K«A+´˜Z Àª=°¸`„«¹Oë¹ùÚ\±ª€
+©p
+0;·$¹„;ºh»»Ÿû¹Ð½Ò;½Ô[½Ö[¹èPÙ»½ç ½§û‚ÿpË ®àªÙ®]p®šÊë:°¸kÒ«½ÓÛ½•ÛªÐ%2H
+¥,v:HA£3{½ó;¿ÏKÀœÀ
+½ðKÕ 
+‚À	Ëðºæ±F‹´[”»ÀÒ{·À<póÁ5b¡cÊ§ P`'@ËÊÁÔû¼ð;Ãè@Ã6\Ã8|Ã:œÃ<lÃé0½á@ˆpÈ~çkÁ›J,ðK½é ¿OÌÀ=\Ã?¿©óPL„4z
+³à¿âàt@
+P¤p¤ÐR¼ÃjL?ÜÆèàÆpüÆrÇt<ÇvÇwìÄÔ¾,´HËl@Ý‹ÇO\Ç?üÆçÐîÿfcÕ•M¹Ð¸³p:ÓÝÀ%0'P
+1Q
+-l†œÇmÌÆ <ÊŸ\Ê ÜÆpìÆ§‹† H´{P¤lÊéðÃ%QøvÓu¥ÐÅºP¨À<,F}
+šŒ
+§@´p´lÇl\ËÐÍÒ<ÍÔ\ÍÖÍoÍÙŒÊæÄ{ á ÍÒ¼ÍâLÍè0·0¡ÚØ·€
+· ºàS¥ 3›³'À¡€
+üÛn×\ÍÏÜÏ Ð=Ð}Í· [¤½P
+ðÏ¸0ùÌ<¼P
+&0"0 €
+¦Ð¸tÐýÏÒ"=ÒsÝ·ËÚ¨ ¾ Ï¹€!É}²³ÿ06ÑüK3¡p
+=$ýÓ@ÔéàÁR<½â°Ò-í¸°9`ù¬3´`Ó}9M3&0ÒB-ÍðPÍÛ°Ö@ÕÜÕµLÖdg]Ðgs8,ÅéP¨à¿-Ï·€@™|¿©rÓ$PÕ¤@
+¶ ÍiíÏÑÕ†Öˆ}ØŠØŒ½ØeØì€Î–×pÈ€ìÀØšíØ‹ÝÙ]Öç°l›³Ð[î2]Ý9%pq 	¥0$ n€Xàt 	~ÃÓˆýÙŠÍÆžÜ¾=Üd­ËiÆ€	ÆÀÙÀÌpË°éàÂ]ÝÄÍØÓu¸ÿš³Ý€
+{ÿ×Ð†tÀ#0	Âà•0	˜°	—p	\ÀW rð×ÌlÝ]Mö}ÝÁMÖÖp‘@ma° 
+ÀG ÒðÙ xÛpØò®ØùíÙòpJÿº
+á–Úu== `	ÓðáÐðÎð	ìÍZ;`V@ã`ØÂÝàø-ð Ô=ã3îàð ã4nã7.ã:^ã]íÖ@‚É qœà° <ÐŠuÌ	RPÄ`ã8.ã@Žã9ä=žã3®åîàÁPª±àü9×á=x	ÐðálþŸp	U°Qr8P	ä°ã]íã]nã1Žç7>?¾åè;NÝU.ìÿ°@ƒg…¢S×	}pŒ+ÐS~å2ŽåVNåÙ,Nåž»°Ÿ6º #9«ÀÒ¨­Kí.“p	žàkÞæZ0ç¶j€Ö3þé=N¡®ã9þë>þë€>xîéÂžè;ößWuÏ½BùU–.ô ã„îãÆÎãå0µ¶°
+¶ <nãÈÞàé\š6:’µ‡
+µ7×¬N1”à˜à	±>ëÎPrJ°K0K 1°ˆÀã¡ÎåÈNópðŸðÆŽðò`ì_í¯ðÊþÇðÜ“¾Q‚6í	ïêÐ½Ôm¾{
+¹ÐâôÓÓçÀðoãè°¥ÿ9óçžêëÞ·`2„p	™ ïÎðž`ïb¥r£r¥;P	ïò
+oð
+õ
+ßàEì òR?‰Þd>7
+€ =	N7@3>î°0ÈÜÉpÂ`
+	csúÆ)
+¤0RÎ4?ó¾°
+7ïÐ3~à—P=/ïBK°J`ë;ðŒŸñ@YðP_ùM?WÒÍ Wòñ@ñLæŽÕÇ&hTYÔ@itøƒ`×ð×0
+ð±ÀD6P%µÞ@ù
+º0óÄ³0]Õ€ó³ ƒOø˜	WàƒK ; çG	öÿæ€ùóÿ@õ0õ@á?þâ?ô€}ÛÍ¶ÑðÿÜÖ ñþî°j8‚|€ú’©8  alÔ1i‚@Àãˆ¢lÜ¾]kˆÕªS&FŒ0Aê„·zó:Ö£7¯W·nÞLž\¥Ë›._ºtáºuk,\üø¹TˆË1–@á	ã
+ÎK\²ìØ±Jµxé„:ÀT =6}êÞªUÝ°%ët,Q>ŽböÛ5°Ûâ±k4J®Üc£ø¬ÀKc…^5EJÆŒ™´BA(Ôéš´H}v!!â‚"2nô˜µã®’'MúBåK´K]¹nÍJ“å
+Í›~xÆPÿ?Ï mê“{Ë>KŠeöx*Õªë}D^NN¥H”ICfå ÂhFqã&­“—6ãÜÅ¥{Lü]|iœßÑÇ¹4fÊ˜%ãdLY²QžìÀË‚Â.ˆ„Æ©§©ã<º¥3oª)I—XDkÉ%˜X¡BµÕlºb¶Øvˆ¡? ™F“>v#qDLŽÃê8äˆ;°ÅË¹#’ç“†@Ô ’c’9¦ûV "IH<ñ”D…½h(ï¼úXä“¡’ÇF¤x¼òÛ¯?ÿF(Åã‚;.A=›å–•"„I¦*Þ¼b5,fƒa	%f»"Oq‹)–pB‰%¶ FÅÿÇdÑPEçIG@Œ=ÁKf/”¨aË R©ƒH#•%Ï#‡>‘ò‘Q’Q¦‘·\AIýú³ „[ÌQTÑ[|ùì¤XveÓ´[ÆØáM³Ðp	žvÀ"'¥ °‡pÀA	GT4NÑDsUÑœ6Eõ‘ck,KXñêAATPíj’Ôólè#{#™K†s÷Ú‹FX…@nuõ†×»ñ%–\"té˜¨ØA‡7«¸"¨%†˜­
+,üÐŠ'”Ø¡†òt°Á†"VqÛçI$ÊF¤´÷˜´Üw!:Œ™N mÄ¹F¢ØÔhHàI{ç’Kß-•d’pqå\ÿ{áÕ—j^†Ûœ…Ššx6ŸxªA5.¢ø8dš½Ä£Þh&U¸R˜ï%…šcíB¿un$iú&›c´(â¼°!NOió–ì©sgá‚®&%–^Šé4¯¿¶¡X±¡˜­Šµb‡pPá
+ÛžÙ$“¢¸ M4Ÿã|¯Çwß™	o¹ô>W/æ˜FO |@Ci¾ùFšF´€]ˆ?æ2ò}ù•†¢þ=ýàÓ÷]¯®:kÒrÁe–.` ý‘
+J	s¿®Ð`0Ô Î˜FŸñ	Müa7šh‡úˆ<á­OxÈÒ(ð5ÿäñ‹/5àCÏ’0LÕé7´qcx¡	€ˆÄ"Št$eÈÀ<ò¢ÁØQA
+²ïwð¸K äù5l'"Pì‰0P‚VÐÄb¡HQpâ	g<cŸ€‚€‚ Ã‚õ˜`=î¡F6Vª‚\Þ<¸$ì 9L"Ô>gÉ¸Æd`Œc,âSî²aÓpx¾õOx¾[c>ì¼]æs¨"èN@„ úeÿx²ý!d3¸
+4f“KxÂ[@Á  hÁœ $óI]ª1,Ò@PÀ´ò! óË>`lK28ÆÎŽá®Iõÿ ^‹\Æ;ÔÉàMr›L-paÉUdòt Ã	,r0Q³YœIÊà`Š°“˜œüÀ` ÿÀâq5Þ#»üæ.'¹|‰g†)À!©vð¨(Eb\Ìè‘và‚sÉ`ÏƒÔEý–Hy-.-\'¬±ŽN’—.dL`â’UÄB·D)JŠM^À7 %W ›-}M,€A
+X¬7ù
+*@ B¦ó„It‚÷Ðe>êÒ|0Ã¢3
+)¯*,"J©Š„"¢@³}òo`×¸®‘È¡Õ•h8Ð‘3uÜ«XU#VóZ„î4¨ÀE(P±
+T”‚ÿù ràN-A±[Ú”$ƒòìo~x‚n°8$À»Ôj>ˆó×]µ»üå!ÃÑ¡í ¢xCG§˜<ŒÐo¿Äód`×Å2‹C	/D¡Ue­kÁ±Š4¥‰¥°Å-h¡
+T¤ÓÀ Pß¹€,b­An€¤2¨\PÂÄ¨ ƒƒ ÷%Ž>ö±}´¿úxÇ7–±ˆ°¸Ë=Ì«ÐŒ[VãÂ5cšñ[
+CTu-®
+p€GiŽàƒ¨5}”ØÄ'®G/¨;‹U„"ˆ»`±*J±I„ }j
+ Xƒó’’7 /Ä[-<¡
+\ÐÿB4öŽû–8¿'Ö‡=Ö±ŒÀhãqÔ¤Q‚1¼8#Í.(XšëÛ¿%	J%ÚÐ˜$©‚è‚ˆu0gbØÊ'ÞG>n¡Šça½¸…-P1‚pà'¸ è›©¤ !;¯
+Z@à@;F3ÒpädAÉEØ†ù«âŒZÊÖ˜&7Ö±êVEbR¿«IÕ¬‚'À|| óI%á÷¢h6)“ª£#eˆÇf¸ÀPa¾$Öï~¥½_ýæÃ¤….Ä°]Ð‚Ê®ÀugÑX1xmç…M¦P0L<AØÐï=ÈQFTA…`ò=L¼ßRëw#üÆªÿ¾ç­ç×@]Í·NDÂÖF"Ï›Ö_»¸4h 1bGbA À(`äÀÙ=8Â6òQâQC™¿ƒÕ©*xá‹]XDÙ .bqŠÆJ">¨Áº=)¡„`Ëõ{Ø£ùÞ>¦MjªèƒûXÇz´ðU\…¿l„2>4 áÌ8x'>>0MâLR
+ˆ«ðÁ<*v'Ð „,€ÿIvzpj¸ƒ¿ü°ú>®¾ø#^âEäglD @EæuªSRÄëU˜P‰m(¾ñÒf9?î±ß«'þÉüøÆª,m¨Ú!ØY\3~ÿˆÁ<í=dÛÇŠCK	wg•x aPKøû&0°‚Œ7½êµŸx«—¸#8´	è
+Æ¢â™oìæ5²Št¼ÅvF|üß}Æ#^ñ¬'ÎÕ±Ž¯ÀäL×¨=µÀŽZ†kÈ†ÊßS;á£-ã:)6ƒ*)6GØ»À9k6è»¼Cã€	 û“?úÓ/ùC¼zÀ…¸ˆ('®@¿R8…RÀ¶€Ñ7~º4Áûs<t=ªX<{È©Áðm¨½Ô†lHÀT@Á2,)¢Q²S„*á@8³¨œ/ 
+¸¼¨ e#Ä«¿ìCÃøÓ‡ÿzè:¸ X…ëÒ<(…[H‡|HCúÓAäA5ä‡üÓÁ}xiÐ 2£0 ä†dBß»†NpŽŒ$1®Id›¦öHE@ƒÐBl6ø;Ø†5Ô…oû—X˜‡øãU´:UT<¼Aïà‡z(‡n	t¨W\ÅVÌ>]\¼_äÅ]Ì¿V$F)‹q¡0¿98%4@ß“†JI&"L»Ra£’÷€@˜ðÄ8bx‡•ÛÅ{H\aELÇuÆ]ôÃúcGbtÇu”Ç?ôÁ_ÄG|x+sµdTÆftFÀY„º@P38@¸(*„.-Ì@ÄEÿ{PÅ‹\ÅyÌÈ‹|ElEŒÜÈäÈUìÈŽÉŒüHª›ŠÉ|Áü¿ƒû¿ß"žÀá4¸(Áà„;è˜–ˆ¬4Xj°H–TÊ¥dÊ¦tÊ§„Ê¨\Åü“J|²h
+ŒW(†šü›cP„Aè?f@D(ƒ €È@oÌÀ#…¾’Ê¸”Ë¹¤K¥¤Ê¹|‡FìÇßb2…`HFacà € ‘£>fÃPjˆ‡º„ÌÈ”Ì¥¼Ëºl¯BÆW¸…X(…˜ƒÅø­d$Ð¸3w˜Ì×„MÈ¬LÈ´nˆ&V¢R 9hFi„í‡$%0Mà ’Ó€j¸‡ØTÎå„ÊÙŒÌz€IÀ¤Rx 9È†i¸Î( ¥4Í	¸€¸Ÿ	¸æ$ÏòÌHç¬Ëy SHIð 	pƒÁ™ix‚iÑI+ƒ
+  
+(Nx€U0Ï ]Nô¤Kx(T…° 	° Jix†'˜È.G}0‡UøÀ	[ÈEõÐÉ$Pº‡S>X…rP¼v`Œ(ÈƒmPJ}ðrÉ¥QºÑº´ÐÕQ½ÑõÑÊÒ!%Òó$Ž#EÒ$UÒ%eÒ&uÒ'…Ò(•Ò)¥Ò*µÒ+ÅÒ,ÕÒ$ ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ‰PNG
+
+   IHDR         àw=ø   tEXtSoftware Adobe ImageReadyqÉe<  …IDATxÚ¬VÏkQž„&jL¤ZƒŠ!Ú‹I-ödAD<ˆ?zÿ AIBAJÚJî5ôàEAÚoUÁ(i#”ˆ%¤%1ÆæG³M7Én6»é¼5z·oKÓÉc';ß·ßÌ¼}k‚–uÝ‰Œã@w@{Æ£‡³SW	˜ZàÞ.§oà„övXÛB_¯J0û-	‰ìZIü¦ƒ·ž{ÝûÇ.î†dQ‚b¥¡ùvÌeã4÷¸¬ðvî;$2…	N•¥@÷ˆ&xX•¶ž>_n dK5 ˜K+™ Ç5eG^P $Hº‰kÉ85îôôPã%‰lfhÊ¢ƒkÖEÈ•k *².ÁÆÏ5î8z\7'‡JTÄæÄjò|)=ý&H÷…¾è—‹o X!…ÝÔCG©qwßfÁæ‹j@ðë]ˆ?|ÏÌÓ¨È¢6ämMQÁÆ+Ð0È#Ø\§Gm°o<00LwúÏ±	›ü1jòêì$5Þ3aK$šÊJ9«3¿œú¡­–;X÷uê+ •Hâ	Ëj«©?½@pËn§ž‚:µYS÷nÂµ³^&A1úP[_~NÀÈ“(EA½ÕÊ¸Ý}ôÒøæºÜË$yðzÂè= 7y22éc7úaÏçDßûÏ¢0óiÉxŠXóüâc—s0=zå	½‚xª°…)R÷Ábò7œ¹ýf‚ƒÚõõûÓHR7Üˆ›(àqÃa¶ÚØGaE„ó#O·¾Ë¥
+QÀ›±NaaevÚ&ÁÖ}‹Û·°ËuØg?v
+ÌV{[Àª$€°üêÅtLÎÄü¦¿ ÉŽ~¶ ¸öÙ²)À Z_`$¢‚­î    IEND®B`‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ‰PNG
+
+   IHDR         àw=ø   	pHYs     šœ   tEXtSoftware Adobe ImageReadyqÉe<  (IDATxÚ¬VmL[U~JKi)-¬-mo-B×µ0èÅ(øCL–Å°ñGGbŒ‰&Ë¿¶\À%ð‡‡þ`f†¨DÜÔ&BÂÖ(q_¦ƒ †•ŽñµÂ(ö®—~ÑÒzÎ…[ùè„…=É{?rÎ}Þ÷}Þ÷œsEØ€Ãáh!·zb9ØXbUUU-ØDîMƒÁD<ß—QÊE9)·hpp°E«Õ6Ûív<OŒÁëõ~&Y[[«7›Í Þ“ƒ6ˆ¯‡\ð…GÂx%_Þ²=“Ê¹¸¸XOäH¥Rû:ù“>þæ6lÖbò5ˆFãp¸ÝxÄÞCSõ‘=;ØàÌI‹Åb|ô‚]½ýV2@—+CN¶ÅVîÌEpáÉ–¹»å¦l‘Çµà‡ñi"‰|®;xpýW¨tvpƒ¸V±%Òïo`fy®«8Ž|!9F¹Åµµµ-T/JFíÆäb’l’b:¦?B’Í@¬ÐÂ7>„}W°´´ÄÏ3ø°»	Î~EÖMR¯?Ð1ðäé/Àn<ÈÏqiwHt¬X¿''H´QxÝcà/"Á”!^zP«ÕèééÁ;Ÿ¼62€“o¨PQ¤A‘%'^_Ã—ŽÏáø“¥		ViVãƒr5~»5Œ\éÉ¿0;=ŽO[yòšš´··CJË,@Y–ì¸J™2™FÍ2Fg]<åæk t€·µ¨(8€ÞŸÝÈ’Êqªö¥¤¦ôê\¬p"\ýb]ó#Ìzp!q’œÚŽ“§‹P~Ø‚¹‡î”ãoæaæÄÊ lïzˆøá#-¾ºjB…Ùþ_BR¦ózñhx˜W—”@ªR¡¯¯¿_»Sùa\ôcå~\XŒ©.jNò%Ût»Dæ/_†®·Cß~úI8A2«®†+/0™L˜cßÃœï1?¿˜1C%S$ù’5H•ÁÝàýá
+JdJ¨$ˆr6ÁT?Nž?£ÑÈgTiy°™‹¯Áö6å53ƒ‰înX2”°j8X`AÞ˜Œ,¼˜.ÇèÅ‹Ï¶’·Kä'ibh22¡5çC¡Ï…ïÁ4BÁ ”±0ÀùŸ*ëf<U"º
+Eé†X?ÙÔEˆ†Â ;þºÛ¤ø_©ºHi³a%¾†¢!Èçç!#]]Gjà‹­Bº¡ÿnH¹ÙQH²²Pxæ&º.!J¢V†¥$ú–‰<ÓÑ0^;wnïËq\Nffæ–AÛéÓG]]H[a‰,	¤3^={ú£Gw­9:é–:èt:Í•••;O¥º:Þ¶c/ÑNê “ÖMMMN†aÊJKK¡P(öuŒŒŒÀãñÜkmm}Y$466>×ß–¶¶6þ·å_ üûübpÆc    IEND®B`‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ï»¿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Windows-Media-FaceAnalysis" version="10.0.18362.1316" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <directories>
+    <directory destinationPath="$(runtime.system32)\Nui" owner="true" attributes="system">
+      <securityDescriptor name="WRP_PARENT_DIR_DEFAULT_SDDL" />
+    </directory>
+  </directories>
+  <file name="Windows.Media.FaceAnalysis.dll" destinationPath="$(runtime.system32)\" sourceName="Windows.Media.FaceAnalysis.dll" importPath="$(build.nttree)\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L6Qn9R4QvmbEIgMUzLOeFNUUkd9TGEHolC8OBwrjXKo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="FaceAnalysisColor.mdl" destinationPath="$(runtime.system32)\Nui\" sourceName="FaceAnalysisColor.mdl" importPath="$(build.nttree)\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ArTq/QYHBHFgg93t30GflR51AaIuDN95UWX+JBmp0RA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Media.FaceAnalysis.FaceDetector">
+      <registryValue name="ActivationType" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="CLSID" valueType="REG_SZ" value="{FC295415-4B35-B746-817F-E6A35B3DDFC0}" />
+      <registryValue name="DllPath" valueType="REG_SZ" value="$(runtime.system32)\Windows.Media.FaceAnalysis.dll" />
+      <registryValue name="Threading" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="TrustLevel" valueType="REG_DWORD" value="0x00000000" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Media.FaceAnalysis.FaceTracker">
+      <registryValue name="ActivationType" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="CLSID" valueType="REG_SZ" value="{62A864EA-32E5-4CC8-BF8D-F98388278618}" />
+      <registryValue name="DllPath" valueType="REG_SZ" value="$(runtime.system32)\Windows.Media.FaceAnalysis.dll" />
+      <registryValue name="Threading" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="TrustLevel" valueType="REG_DWORD" value="0x00000000" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Media.FaceAnalysis.Internal.DetectedFaceFactory">
+      <registryValue name="ActivationType" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="CLSID" valueType="REG_SZ" value="{6FEB81FF-ED9A-4663-B738-8E95E86A8C46}" />
+      <registryValue name="DllPath" valueType="REG_SZ" value="$(runtime.system32)\Windows.Media.FaceAnalysis.dll" />
+      <registryValue name="Threading" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="TrustLevel" valueType="REG_DWORD" value="0x00000000" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Media.FaceAnalysis.Internal.InfraredFaceTrackerFactory">
+      <registryValue name="ActivationType" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="CLSID" valueType="REG_SZ" value="{27ED5EF4-D69C-4FAD-ACC0-886FC7E688D0}" />
+      <registryValue name="DllPath" valueType="REG_SZ" value="$(runtime.system32)\Windows.Media.FaceAnalysis.dll" />
+      <registryValue name="Threading" valueType="REG_DWORD" value="0x00000000" />
+      <registryValue name="TrustLevel" valueType="REG_DWORD" value="0x00000000" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\CLSID\{FC295415-4B35-B746-817F-E6A35B3DDFC0}">
+      <registryValue name="ActivatableClassId" valueType="REG_SZ" value="Windows.Media.FaceAnalysis.FaceDetector" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\CLSID\{62A864EA-32E5-4CC8-BF8D-F98388278618}">
+      <registryValue name="ActivatableClassId" valueType="REG_SZ" value="Windows.Media.FaceAnalysis.FaceTracker" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\CLSID\{6FEB81FF-ED9A-4663-B738-8E95E86A8C46}">
+      <registryValue name="ActivatableClassId" valueType="REG_SZ" value="Windows.Media.FaceAnalysis.Internal.DetectedFaceFactory" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\CLSID\{27ED5EF4-D69C-4FAD-ACC0-886FC7E688D0}">
+      <registryValue name="ActivatableClassId" valueType="REG_SZ" value="Windows.Media.FaceAnalysis.Internal.InfraredFaceTrackerFactory" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{C97AC1B3-8698-4BF6-8DBB-60F6064FA320}\">
+      <registryValue name="" valueType="REG_SZ" value="PSFactoryBuffer" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{C97AC1B3-8698-4BF6-8DBB-60F6064FA320}\InProcServer32\">
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Both" />
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.system32)\Windows.Media.FaceAnalysis.dll" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{16B672DC-FE6F-3117-8D95-C3F04D51630C}\">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+      <registryValue name="" valueType="REG_SZ" value="IFaceDetector" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{16B672DC-FE6F-3117-8D95-C3F04D51630C}\ProxyStubClsid32\">
+      <registryValue name="" valueType="REG_SZ" value="{C97AC1B3-8698-4BF6-8DBB-60F6064FA320}" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{6BA67D8C-A841-4420-93E6-2420A1884FCF}\">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+      <registryValue name="" valueType="REG_SZ" value="IFaceTracker" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{6BA67D8C-A841-4420-93E6-2420A1884FCF}\ProxyStubClsid32\">
+      <registryValue name="" valueType="REG_SZ" value="{C97AC1B3-8698-4BF6-8DBB-60F6064FA320}" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{BC042D67-9047-33F6-881B-6746C1B218B8}\">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+      <registryValue name="" valueType="REG_SZ" value="IFaceDetectorStatics" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{BC042D67-9047-33F6-881B-6746C1B218B8}\ProxyStubClsid32\">
+      <registryValue name="" valueType="REG_SZ" value="{C97AC1B3-8698-4BF6-8DBB-60F6064FA320}" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{E9629198-1801-3FA5-932E-31D767AF6C4D}\">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+      <registryValue name="" valueType="REG_SZ" value="IFaceTrackerStatics" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{E9629198-1801-3FA5-932E-31D767AF6C4D}\ProxyStubClsid32\">
+      <registryValue name="" valueType="REG_SZ" value="{C97AC1B3-8698-4BF6-8DBB-60F6064FA320}" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_REGKEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)(A;CI;GR;;;S-1-15-2-1)(A;CI;GR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)" operationHint="replace" />
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)(A;;GRGX;;;S-1-15-2-2)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" />
+          <securityDescriptorDefinition name="WRP_PARENT_DIR_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;0x1301bf;;;SY)(A;IOCIOI;GA;;;SY)(A;;0x1301bf;;;BA)(A;IOCIOI;GA;;;BA)(A;CIOI;GRGX;;;BU)(A;OICIIO;GA;;;CO)(A;CIOI;GRGX;;;S-1-15-2-1)(A;CIOI;GRGX;;;S-1-15-2-2)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

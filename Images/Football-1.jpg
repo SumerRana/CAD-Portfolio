@@ -1,0 +1,1254 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://www.mathworks.com/help/schema/MathWorksDocPage">
+<head>
+<meta xmlns="http://www.w3.org/1999/xhtml" charset="utf-8"></meta>
+<meta xmlns="http://www.w3.org/1999/xhtml" name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+<title>Block Produces Zeros or Does Nothing in Simulation</title>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
+
+
+  <meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="Content-Script-Type" content="text/javascript"></meta>
+<meta xmlns="http://www.w3.org/1999/xhtml" name="toctype" itemprop="pagetype" content="ug"></meta>
+<meta xmlns="http://www.w3.org/1999/xhtml" name="infotype" itemprop="infotype" content="other"></meta>
+
+<meta xmlns="http://www.w3.org/1999/xhtml" name="description" itemprop="description" content="If you simulate a model on your host computer without running it on your target hardware:"></meta><script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" src="../../includes/product/scripts/jquery/jquery-latest.js"></script>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6.css" rel="stylesheet" type="text/css"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6_lg.css" rel="stylesheet" media="screen and (min-width: 1200px)"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6_md.css" rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6_sm+xs.css" rel="stylesheet" media="screen and (max-width: 991px)"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6_sm.css" rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6_xs.css" rel="stylesheet" media="screen and (max-width: 767px)"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/site6_offcanvas_v2.css" rel="stylesheet" type="text/css"></link>
+
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/l10n.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/docscripts.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/f1help.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/docscripts.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/mw.imageanimation.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/jquery.highlight.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/underscore-min.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/examples.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/use_platform_screenshots.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/suggest.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/overload.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/shared/scripts/helpservices.js"></script>
+
+
+
+
+
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/jquery/jquery.mobile.custom.min.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/bootstrap.min.js" type="text/javascript"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../includes/product/scripts/global.js"></script>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/doc_center_base.css" rel="stylesheet" type="text/css"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/doc_center_installed.css" rel="stylesheet" type="text/css"></link>
+<link xmlns="http://www.w3.org/1999/xhtml" href="../../includes/product/css/doc_center_print.css" rel="stylesheet" type="text/css" media="print"></link>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" src="../../includes/shared/equationrenderer/release/MathRenderer.js"></script>
+</head>
+<body id="responsive_offcanvas">
+<div xmlns="http://www.w3.org/1999/xhtml" id="doc_header_spacer" class="header"></div>
+<div xmlns="http://www.w3.org/1999/xhtml" class="section_header level_3"><div class="container-fluid"><div class="row" id="mobile_search_row"><div class="col-sm-6 col-md-7 has_horizontal_local_nav" id="section_header_title"><div class="section_header_content"><div class="section_header_title"><h1><a href="../../documentation-center.html">Documentation</a></h1></div></div></div><div class="col-xs-12 col-sm-6 col-md-5" id="mobile_search"><div class="search_nested_content_container"><form id="docsearch_form" name="docsearch_form" method="get" data-release="R2020a" data-language="en" action="../../templates/searchresults.html"><div class="input-group tokenized_search_field"><label class="sr-only">Search Help</label><input type="text" class="form-control conjoined_search" autocomplete="off" name="qdoc" placeholder="Search Help" id="docsearch"> </input><div class="input-group-btn"><button type="submit" name="submitsearch" id="submitsearch" class="btn icon-search btn_search_adjacent btn_search icon_16" tabindex="-1"></button></div></div></form></div><button class="btn icon-remove btn_search pull-right icon_32 visible-xs" data-toggle="collapse" href="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button></div><div class="visible-xs" id="search_actuator"><button class="btn icon-search btn_search pull-right icon_16" data-toggle="collapse" href="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button></div></div></div></div><div class="row-offcanvas row-offcanvas-left">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sidebar-offcanvas" id="sidebar">
+<nav class="offcanvas_nav" role="navigation">
+<div class="offcanvas_actuator" data-toggle="offcanvas" data-target="#sidebar" id="nav_toggle"><button type="button" class="btn"><span class="sr-only">Off-Canvas Navigation Menu Toggle
+                  Off-Canvas Navigation Menu Toggle</span><span class="icon-menu"></span></button><span class="offcanvas_actuator_label" id="translation_icon-menu" tabindex="-1" aria-hidden="true"></span></div><div class="nav_list_wrapper" id="nav_list_wrapper"><nav class="offcanvas_nav" role="navigation"><ul class="nav_breadcrumb" id="ul_left_nav_ancestors"><li itemscope="" itemtype="http://www.data-vocabulary.org/Breadcrumb" itemprop="breadcrumb"><a href="../../documentation-center.html?s_tid=CRUX_lftnav" itemprop="url"><span itemprop="title">Documentation Home</span></a></li></ul>
+<ul class="nav_disambiguation"><li><a href="../index.html?s_tid=CRUX_lftnav">Simulink</a>
+</li>
+</ul><ul class="nav_scrollspy nav">
+<li class="nav_scrollspy_function"><a href="#responsive_offcanvas">Block Produces Zeros or Does Nothing in Simulation</a></li>
+</ul>
+</nav></div></nav>
+<script src="../../includes/product/scripts/offcanvas_v2.js"></script></div><!--END.CLASS sidebar-offcanvas-->
+<div class="offcanvas_content_container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sticky_header_container"><div class="horizontal_nav"><div class="horizontal_nav_container"><div class="offcanvas_horizontal_nav"><div class="container-fluid"><div class="row"><div class="col-sm-12 hidden-xs"><nav class="navbar navbar-default" role="navigation" id="subnav"><div><ul class="nav navbar-nav crux_browse"><li id="crux_nav_documentation" class="crux_resource active"><a>All</a></li><li id="crux_nav_example" class="crux_resource"><a href="../examples.html">Examples</a></li><li id="crux_nav_function" class="crux_resource"><a href="../referencelist.html?type=function">Functions</a></li><li id="crux_nav_block" class="crux_resource"><a href="../referencelist.html?type=block">Blocks</a></li><li role="presentation" class="dropdown" id="topnav_more" style="display:none;"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> More <span class="caret"></span></a><ul class="dropdown-menu"></ul></li></ul></div></nav></div><div class="visible-xs"><div class="container-fluid"><div class="row"><div class="col-xs-9"><div class="mobile_crux_nav_trigger"><div class="btn-group"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources<span class="icon-arrow-down icon_16"></span></button><ul class="dropdown-menu"><li id="crux_nav_mobile_documentation" class="crux_resource active"><a>All</a></li><li id="crux_nav_mobile_example" class="crux_resource"><a href="../examples.html">Examples</a></li><li id="crux_nav_mobile_function" class="crux_resource"><a href="../referencelist.html?type=function">Functions</a></li><li id="crux_nav_mobile_block" class="crux_resource"><a href="../referencelist.html?type=block">Blocks</a></li></ul></div></div></div><div class="col-xs-3"><div class="translate_placeholder"></div></div></div></div></div></div></div></div></div></div></div><div class="content_container" id="content_container" itemprop="content">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">
+
+<section xmlns="http://www.w3.org/1999/xhtml" id="doc_center_content" lang="en"><div id="pgtype-topic">
+<section itemprop="content"><h2 class="title r2020a" itemprop="title content" id="btga08s-1">Block Produces Zeros or Does Nothing in Simulation</h2><p>If you simulate a model on your host computer without running
+it on your target hardware:</p><div class="itemizedlist"><ul><li><p>Input blocks produce zeros.</p></li><li><p>Output blocks do nothing. </p></li></ul></div><p>This is the expected behavior.</p><p>For example, in a model, on the <strong class="guilabel">Simulation</strong> tab, if you select
+        <code class="guidropdown">Normal</code> in the <strong class="guilabel">Simulate</strong> section, and then
+      click <strong class="guilabel">Run</strong>, the following happens:</p><div class="itemizedlist"><ul><li><p>The sensor block and Digital Input block send zeros
+to the model.</p></li><li><p>The Digital Output block does nothing.</p></li></ul></div><p>To see the blocks work normally, run your model on target hardware
+or use External mode. </p><p>To run the model on target hardware, on the <strong class="guilabel">Modeling</strong> tab, click
+        <strong class="guilabel">Model Settings</strong>. In the Configuration Parameters dialog box, select
+        <strong class="guilabel">Hardware Implementation</strong>. Then, in the Simulink Editor, on the
+        <strong class="guilabel">Hardware</strong> tab, select <strong class="guimenuitem">Build Stand-Alone</strong> &gt; <strong class="guimenuitem">Build, Deploy &amp; Start</strong>.</p><div class="informalfigure"><div id="d120e213481" class="mediaobject"><p><img src="click_deploy_to_hardware_button.png" alt="" height="52" width="152"></img></p></div></div><p>To use External mode, in the <strong class="guilabel">Hardware Implementation</strong> pane of the
+      Configuration Parameters dialog box, select your hardware board from the drop-down list. Then
+      expand <strong class="guilabel">Target hardware resources</strong>, and under <strong class="guilabel">Groups</strong>
+      select <strong class="guimenuitem">External mode</strong>. Then click <strong class="guilabel">Run</strong>.</p></section>
+    </div><div class="clearfix"></div>
+<div align="center" class="feedbackblock"><iframe id="doc_survey"></iframe></div><script src="../../includes/shared/scripts/docsurvey.js"></script>
+
+<script>initDocSurvey();</script></section>
+
+
+</div>
+</div>
+</div>
+</div><!--close_0960-->
+<div xmlns="http://www.w3.org/1999/xhtml" class="body_trail_container">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">
+<div class="row"><div class="col-xs-12 col-sm-4"><h5><a href="../index.html?s_cid=doc_ftr">Simulink Documentation</a></h5>
+<ul class="list-unstyled hidden-xs"><li><a href="../examples.html?s_cid=doc_ftr">Examples</a></li>
+<li><a href="../referencelist.html?type=block&amp;s_cid=doc_ftr">Blocks and Other Reference</a></li>
+<li><a href="../release-notes.html?s_cid=doc_ftr">Release Notes</a></li>
+<li><a href="https://www.mathworks.com/help/releases/R2020a/pdf_doc/simulink/index.html?s_cid=doc_ftr">PDF Documentation</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-4"><h5><a href="https://www.mathworks.com/support.html?s_cid=doc_ftr">Support</a></h5>
+<ul class="list-unstyled hidden-xs"><li><a href="https://www.mathworks.com/matlabcentral/answers/index?s_cid=doc_ftr">MATLAB Answers</a></li><li><a href="https://www.mathworks.com/support/install-matlab.html?s_cid=doc_ftr">Installation Help</a></li><li><a href="https://www.mathworks.com/support/bugreports/?s_cid=doc_ftr">Bug Reports</a></li><li><a href="https://www.mathworks.com/support/requirements/product-requirements-platform-availability-list.html?s_cid=doc_ftr">Product Requirements</a></li><li><a href="https://www.mathworks.com/downloads/?s_cid=doc_ftr">Software Downloads</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+</div><!--END.CLASS container-fluid-->
+</div><!--END.CLASS body_trail_container-->
+<footer xmlns="http://www.w3.org/1999/xhtml" id="footer" class="bs-footer">
+<div class="container-fluid">
+<div class="footer">
+<div class="row">
+<div class="col-xs-12">
+<p class="copyright">¬© 1994-2020 The MathWorks, Inc.</p>
+<ul class="footernav"><li class="footernav_help"><a href="MATLAB:web(matlab.internal.licenseAgreement)">Terms of Use</a></li><li class="footernav_patents"><a href="MATLAB:web([matlabroot '/patents.txt'])">Patents</a></li><li class="footernav_trademarks"><a href="MATLAB:web([matlabroot '/trademarks.txt'])">Trademarks</a></li><li class="footernav_piracy"><a href="MATLAB:web([docroot '/acknowledgments.html'])">Acknowledgments</a></li></ul></div>
+</div>
+</div>
+</div>
+</footer>
+</div><!--close row-offcanvas-->
+</div><!--close_0970-->
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      GIF89aı » á     R=GS?IY?KXO*\R,aV.g\1ma4re6tg8uh8zl:~p<VALXDN[EP]HSeNOeCSaLVbNXjEWhKZfQ\kTRiS^oXXrI]rUAuXCtXKz\Eu\Sw^Xx^Sx_YmXbJdvQcp\fr^hxPd{_m}`G~aH{`TzaZvbl}hsÇs>ÅLfÖSkÅXläTnçTpåXqí\bö^oìUtêYtûTyô\zÇdJáhLàiLàkVÖv@áxAã|Cèr[öl^íqQíu_ú{Vû~]Ñf`Ç`qÅlvÉnyäauäexån|Ür|ïadõdgùhfìdyìxlëwqìyrî|{öp°V{¢Y}†~W°X™ax´kv™ze£u{≤m|≤ut±sx∂yv∂yzåxÇökÇî~à•]Ä©[Å∞]á∂^â∏^ã™fá§xäÆuê±eÅµbã∫bçækî∞rà≤të¡gç∆dî¿mï√nô»fïÃfôÃjñÕlú¬vÖ rê‘~©íÇFïÖHòáIõäKüÄeõÉ†éL£ÅY©Ü[≠ä^¢êN¶ìP®ñQ´òR∞å_±ùU™áf≠â{Æë{µâgµÅp≤É}ΩÉ|ºäsµëbπïcæôf∑ïq±ì{Ωõs¥†Vµ°X∫•YΩ®[æ™`¿éo¿és¡à}¡úgƒírŒõ{¬≠]≈∞^Œ®n ¥b“ªh◊¿m€≈s·ÀyÉÉÉâââîÄäòÉéùâìöñåûôçñññööö¢âÉ©áò¢ùè¶ëõπåÇøäóΩêÉ∂óß¶†è≠¶ëµ¨ìº±ï©©©∞∞∞æææ∆òàƒôú‘É´’ì©‹ó∫≈πó≈πòÀæô“¢éÃ£®Ã®∫“ß£◊´•”©ØŸ≠¶€†ª€∞ß⁄≥º€∂≈‰Ø Â∑ Œ¡ö’«ú√¬Ω…∆æÃ»øÂ÷•ŒŒŒ“Ã¿Ÿ« ⁄‘¬“““ÿÿÿÁ∆‘Ì»€Ê—Ã„⁄ƒËﬂ≈Í·∆‰„·ËÊ‚ÌÍ„ËËËÙÂÎÒÌ‰ÙÂˆˆˆ˛˛˛!˘   ˇ ,    ı »  ˇ ˇ	H∞†¡É*\»∞°√á#JúH±¢≈ã3j‹»±£Gç BäI≤§…ì(S™\…≤•Àó0c úI”!Õõ8sÍ‹…≥ßœí6|J¥®—£ Ö6â¥©”ßPá2]™4™’´X≥ú ê´÷Ø`√zÙ™ê¨ÿ≥h”v≠Íè`[Çf’ ùã6§øªxÛ¬≠J∑Ø_≠!ı	<Ø¿∏+.rù„«Îﬁ¡ªßÔ-‚≈ò3cÈ¨≥ÁŒœ÷›ª˚Ô≤Ê”®É˛ZÕ∞fœ‡U.Õ7µSf∂£ÜÃÖã∑Ô_¿úΩõm:∑G|ëÚwR.ÁŒ{ˇNºˆr¢Èí_G⁄\ÜwÔ“ù≠ˇ´æ›Ëæ1j‚ï7⁄˝ª˜\”«∑-ææbº@¯©Øˇ±Ω{¯‚ë«ﬂF˚|ìﬂÅ˚òî{ﬂ(m
+bT ~“√G iLì_ÇV‰_ÉÒ	ÿ·D‚Gé<H\xF8‰î¯á#BÙ·{!Œg]å›áﬂ7Ú»Mä”câ˙·—å28(¢ë
+Mà4'ˆ¯£ädÑ”£<D¬»$BH*i„ñ	9	Âï="‰UíâÂÜ`&‘eç∂YêéÅ®Êègí!§öﬂîèñmæ‡ór
+¥O~“®y%ûTí°Ëêlz “8húmäÂ£fÊôÊ£k‚®ëÇ>Hb⁄	j8ù6∫'®°ˇ(•ïzâ©ët™
++ûû:
+Îê“à∫ò•.9¢ìÉË
+kßΩZ˘kè¡ä∫e±Ñ[‚òœˆ»j´Å†IÜûŸ^ô%©¥2hÎ©∆©Ï≥ºˆ˙j∏ÚD+ká‘ﬁ _Æí…	≥ç~Îlæ„“[Óp¢{ö¶˘í…lØü&o§÷?π!Ïï˜€≈ß∆O?Ù$ÒçîòR=!gÜÔ≈dnk&ïHê±Àd∂∏„®t}lé9®X2â»Éxi\ÓP"â%®$ç≤r}≠LÛù/wKF1ˇ>©¥~ÒCO9±Ã2,ñP‚ŒA##ÑN"F[rJ“IüÃÙY[≠h8| ç‹†v,?˘\ˇcN,]{ã)ñTÛˆVA[jÍç°” ⁄ì®ù4,®P~ÚÿZ≈ç∑¢≥yﬁc≈è;◊†∏◊^«r
+%ìQV‚IÃx„	Îñò≤vÂ∞HÇÈ`ÂÙÁúr7Òäˆ)*ŒF·ìLëúÇ:Í∞¨>I#E‡Ûz•±=ª@√40É"FGÆ˚)â°~ˆQJ!Ú∞^x<¸|ÜÓT¯„/}Í®îb¥"Ï€^≠d«êa0`FhÎ"˜;ı©OOI˝%åÈALû˝öó?¸)‡±ÄÖˇ(—àD·k·ﬁπæ76†∂#°A§h.ÉÚ–Ü,p°X@8¨÷ˇéÇè‚œ´c]	âÄ™®êÄq!åpELBRËî® ˆHRÿ·	.4Ü	Ïà^îá!¢èaqí0°¿Î˝ÆâN†˜rè0@|E ˘&qäI!xEπ·¡(∆)Ë¢ne–Öv¯√4∆äyI¿!JQäIPÇ–√"R6á‡„ hÄ«G	J¿"eA÷∫&(J:A∏Ñ$.W@I4¶—‹H?t◊ D‰Ôá%)a∑Bà‹ò°˙»g	wÿ√#D⁄TiÅ@óπD$¡…À3ZÚí°ÿÆ ¸…èÀ|‚ùâ i!ÏP†%`âˇ.Zíõ'p$8√9NpÓbíÊ¸e0)¬èuJbFL¿‡O=.N"ÁP%íéC¥¸úà”∆
+t†Eit1ÑJ¡óA‘€D˙aSmç3"E+j.(FD‰@“ÅàV¬¢"Ωñ6qXÀﬁ•’%TwŸÀssà°)*Z…Ì˘KEJ9Ø$h€'≈2<î
++ùjJÂJ’ÑzQyu¬dAÍ—3J0„p¡
+« LüvÀHkH“÷Ù§t}§8#ãÀÉV5ç2EM√&	vÖ¨AÎG;E““ñîçÍd)ª“ T0≈afBSõˇ>‘¨˝)Ï<ãíÚπ©1-˝t(∆∏¶vÆ«’E9+i…Ãö#â]=
+hy€à»¡≤±ã,i@ì;P<¢†‹]nl3¯6∫±Îln£€ã6	§D)ÊÅ®j≤…•ÉÚ≥Ó°ÃΩÎÜÃ·øŒ>e∫GI«%
+à@b©l™ûÍ_]Ï·@¯ÈoÖï{Ç3b0ç¬O'ñ±^È∂◊XÊ1 ¯@U`√€‘Ó7+¨_¸¯·
+ï–çﬁÀ‚–™–!˙ŸWÎ(πG4»†	Op#ªç‹pç·:ËBï»ÇÖ˘ª·]ÿ¿«»á+<°	2dc∂Eñß{Såüd-Íˇ[öPå?˜ÿÎbø¯±2.±ºÖ∏^8√]xüFlh¢ÃŸ ”UÁ≈#€À#¶]≤&6·
+p‡M¬N‡qrˇÉÀZ'ß=Ì_Ò‚≠–Aﬁ’Öfé ò#Íbì=±√†P»u
+v=„»Nπ PM¬#˙å“QßV◊ºV.òéTØ˙Wã÷´E^ùÏ>*íV≈ìˆXTÄ∑∏S ◊_Î9ÿè5Tç=U(T@‹¶ÄeÌ
+/r§öÛ{V´7„hÉ=D∏ªÇ≥ú·Öi(¿ªªNÅ∏)@ÓÅ≤[Æ¬&ˆT˜gä‘›O8ºS–“æ4\Ö>Ù‘.&/iKÑ⁄ˇx∂$MiK√™‡Ôw
+4≠pœò˘ÒCjÖ≠nπ≤; 7
+†∫ÎqõV®ûÙ1™Ê∞}OÂ±∂√$Ì	Pi#
+bÑ∏eÆip0¿Bl|Ó»FºÎÎÊo N∫=‹08∫¢Ωâ•ü⁄E&œcOwk©≥,úx◊µªÇò`ËëUxÚ–‡<îù≤<Á.ßÁ 
+†ú5∑kó-èm#ﬂxs:O	∆˜§R»÷Ùì	ﬂƒ¿\ˆÔŸ%Ô›@¯¿∏<Ê·Å◊ö~¢O°EQ¸o•˛ìí∏Ä∏+–k∑õ ¯âÉ	6yˇBˆ¯ÒAÓSõ˘ @ÄÛ‰%≤ˇﬁIøÊà¯ùx‹ú¿ ñﬂ|∫b!∆É	dﬁ~»ß€øôˇB~æPˇ©f˛ﬂGo≤e^Ñ•fƒ∑*Gg⁄•◊PEµál n s‹U}«&nn†c¯1…ïy+ÄS‚Á&˝∆B1R√1 nÉ–Äm‡n‡Üp]«izÄˆ ‚…ÖÅâ∑u  ‚Üsê U6∏vóy0ÉÎn1‡¬a¿wÇ@cÄG÷$∆◊ÇÜñkÜWy„NSl¿ÉïWÅ‡nP«%Ñrïy‡ ˙h∏dáÒFne(Ü‚ˆ{°ßÖu·O-®áˇ¿|Ωoom–kêy=Äg“GlH%†áow€gv˜óx%¿Ä
+WÅïÁà(Ä}ùs(∞∂(@Ñók∫ÄlÜÖ»|¥¡Öè∂Ç_?¬–ÄÆWyπ∑óã1}¯1Pâ%ä‡Éﬂ 1 NtHt sGéËç%`ÿ>n(Pã∂∏/nÃ∑å`àr#z('Kés≠Y  PÜ≤¯6gç◊8é2nk0êˆ◊sSUZ nPêÊn ãØóÌoπËÉkß{^nÄè˘(~‘Ê>ÅÄzü 0n‹≈vénœˇ}Ûgëlá◊XD»Ü˘èSé'ìzhx©ëPÅ%n≤í‚Êà‹ınÊåc3uÇÇƒà◊D» 3©‹5ì0ìêìÅ }‚¶	ä?©ã3	T†0@YB∞Z@YPT ÜK˘mPÅï‚6ï·FñÄgŸò0ÄA4˘·F[8|]8÷EÙÉ†ñ&9P0Äó<®ò‚¶ñï˜ì@Iàû(ìvU Û(Ü@òw8nââ}>‡PsTê\u˘Ç8dÜU{ÒïåC!˘a©êãïw\5∑9êqÜôö?yìÑ¯à°ôÅ›Yï∂ˇÈîO†ãSâI˘çª mÄ†í,C˘A¡2*‘Ü–≤ú
+8ÉŸÿö%)WWlP{n˘àÓ»Üπù¨Èà–vØây¿ä’Hà†ëË}O@èâ©Ñlòàqk«Üﬂü2We„†FåvúòYåˇÄüW"/Ã˘4åt°ÎT–}	ó€n90vmπìÃ7ùˆì$ÜTÄò–†Íu‡äŸÜZòGïñóy≤Hyáª÷£†ô»{Ë0&ä(z%¿dü)à0*.—23Í0Me£éO@j9à_ i>@8cBg•zà%p§càòŸHà◊§ˇwìÃá†V°ywz®> çzÄ·©ª@(`Ñ~*nf[Ò9üjí¶\≤¶—¶d"£‹FI∞§ﬁW7©3˜;∫º @*}ä Ä‡nkn´âÜ*n*ê ⁄§√nFà°ê*nöëàzàxP ∂Í ≤∏∫öp∂»k¿êïáqfTÇŸ"ü¯AèRü´äúl∞´œPpyém‹)ê†PjÄÄÿv
+áÅ	ä„ò¨è∏¨qàíŒ∫û‡àOâ®aòë¢8ì[´ﬂÊÉ∞∫uNI®
+˚É+ w∞R¶Åp¶Ò∫¢â»™ˇ·™3k¶Vw_∫pxÿØ⁄î—*n“4êçã© ∫–∞QI®Êzp∫ÄòqòîﬂYìêë∫±ÑòëÖ)õ4…£P‡îEhöÈ †◊¯éëÇ*0+≥†¢™dc≥Å≥Ò:¢,ò∂R) K[Ñ@ké ‡˘·¨ÿÉ[◊¥áßp%ÄûbXSnUksãR´ÿ†Fÿë+û>8è∫nó*Ü¿∏¯Òá[´¥mKÑ ∑ˆCZÈÆÅ Øœ"ØwKØ≠jØ·ÇØ∏Üyµ€Éﬂf∏à[rÄrPè€ùí´∞∞ö(Ièô+êÿhëùKtYˇ`Ñ≤9∫Yk´‹nm†ãÑ¯ ¨_ ªkÀ∂◊o39PGGôm/¿{ô{W~°∑ø"/xe‡nOÜKj∏5 ç—Àæèàß‚6tÁß ©[óT€ΩÍÈ¨5W°°õyÜw∏äπYyí»æ‚€áã≤ã¨Ÿãà˘èE`¶)
+/vÎø‰wÄ¸,EÇq¢	⁄±áÀ¬Æ[°aª–ƒ5âpG´Ÿ[ÜõÎΩﬂ[áö;æÜê∏8tO|âm0≠K5–áx‡†á‹πÉ˚èuºÅ–s‡0˝ã8¬{≥ƒKp;ƒ¬˝UÉ‚;ÜÏ+ã^p∏z°◊ƒªˇÄöﬁ&ìÑXûàç–¡ﬂ˚¡ZÃçQŸ£jks˛(∆”ö®'À¬^ ÜP0∫«i_0¶L≥ìí«yª«˘ ≥x÷in<z≠9äì“(} õ∏ÑXäòJ¬kÁéÏÉz≈îı¡…ôÁàù|âêJí]l»ä∂00èµÏélÄg¿Ê≤–∆ √ÿ¢àÒ√dRgíkß∂∏|ªºìào0Ω¬¨»eàò[W¨ã©ÃÃÇã9nQŸ»É8s‘©ˇ*ÜSπZy„H& §¿ˆ_‡ó™‰|ü∞LA®5Ul–á~‡jÎà,Lï·	≠H™»®9¡áïézµˇ,πôçÛàïcˇË…=X“∂õ≠€é†»ÄEh◊qq˜z—x¿M&ò¶ó7ön–∏˝Z˘!ôò“8}“Mú“zàò•¯““©πhπehy6}’èLO›∫◊∏÷∂W¨∫'ŒØj‘Æå‘è¢ŒtÂ»¿ik¨UÕ~π&â%M(-ÜTtV÷¯óµ]˝Ø}â‹ÄÅùDƒé(ãµÁ=¿çYr≠¢jZ◊öô—xMWßñ0`">¯∏%∞)=s®ß„∂T†ß)≠ÿ¶p>∏∆b8sŸù≠7‹‹HTÄ≤>z ◊…Ä1ÄD9UÛ∆Æ;å«Êúú∞º‘«ï⁄  nˇ}Ÿ«õp§±çöªW›á÷ ÎÉîÃ€PµuÜ*±Ñ8…∏Dƒ–πΩòk˚ë6Û˜‹ÀLY∏Îa1J◊◊]Ø_DI'¿‘…ep%oÄo`ÄƒáÎÀ‚Vmêyª∂û%çp∫›Ó}\ah€bHﬂ¯ñòHÑÛ[ù¯Å‡6ïÅ)‚tutwÃ¢ˇÎ√Åp⁄€Õp`‚ˆ§ÔõƒÓé≤=n≠óﬁaÿpD8‚vfxﬂƒ‰aÿkôwﬂk0¬Jõ‡›ñ<¿ù#mñ˛’‚u„5K⁄Å\a@Qû>ﬁGä~Ü)~πÕ∑u_Â‹◊¨æqéÂZÆ9ÅG+±ˇP;VamÄP–7⁄>ºΩ∑R.çKúÜ‹ŸŸ]˛5p·◊å<P;⁄ô◊ﬁP~ÍÌñp§Æ‚Y^ïJ´ﬂm‚<˘≠v∂¿∏êû„ôôÊÅ`Å‹E@˙`òÀ*ÜæÁ„}ÑCgﬁ.≠Í|Óv~~l1gñÂ˙≥[Å5 ﬂ	âí∂Œ]{ªﬁ√Ω˛¢Å@í(@…¬éé◊≥[á˛©°‘˙ EõƒÀŒÅ‰ÊÏaÕπ—æ¸NY jñºêyKöÌ¯—?ê–û‰ïóf˘pˆ(ÓÛÈz|õ¿Ós˘Qq∞)ÿ·ôÏ˚áÕoôª¿·˚n≈˝éKR~l['ÔßJ[{Åˇê
+ˇÉº†ñ†Ëö∫@Ê§ÜR öë˙7ÓB¿•m∏è›ú¶Ò∏¥R  9©¥æÈ!/Ú·¶Ñ=ÍÕ<Ì—Œ~ ﬂÚ∫@/Îﬂ]ÛWˇà1äzXl±wq1óë;ÙœÎ.äÃ€îvæÓÅ–Ó@_Ñz§ñg’´Ï˜˛•ÕuÆw∏®ﬁπ)`ï sé)ˆ‘
+ÛÑÅ<P“–ƒpìÑ™á"˛pÜG˜N˜Áwè˜·&vÏ˛x≈ÉPoÒçôÔ%MÔUÍW¯k'Ì)`ªïŒ®`p{Óˆ?H√≠∂±^Ë/æÌùˆ®∞ùt5y‘:˙£/˜¡KÒØú˙áˇÎ 8∞Ëë≈ÜÜÆÇo8¿∫x`ÔÖ€ΩoÁƒvLÀÁ€⁄–—Mƒñù‹9øJÎ÷_¿Ì  É.^)<XA√ÉÉ∫>ÑËpOû@Å|ò†ÄA„F_≈˚RdH  dúD)#◊/gÎÙ˘˚Wr‰»ä"‹ƒ©¢b†7S¥â‘` Ü"†Å .ù"Ù±ÛŒõHK¨iä0≈÷¬h!@ä†eÕû-˚µÑ÷≠ºåAÏ…[
+5‹u#È”§∫à≈p∞Æÿ¢††’•BÄ®›p‹Ë‰Lí&Sû\ŸÚeL îC÷§™NE8* 8H¯Ì–É8ë*e ◊iˇ„@S©ZE!.Øµ>ˇ˛Ω5÷|5¨°k˜n<„ò–›WÆÿ (h¿@=Äaƒ¨#`p»1d…û9_∆Ã“%LôûAGMZU‘æ—*¸ g˝§kRd’ç6€™⁄Ö]®¯Ü5àAÓ†¢».Bà#Í ⁄ÄÇ
+(` ãò∑∫kπÊy.∫ ‚ÇÇ∫*¿ ;Ì <À;»ÚO£Ú<+	=ï‘€¨= @„a'®∫!∫CË\CË∏ˇ¢Û°±/<
+©4(!À˙H	#,Æ%[√RKßÆQ-21.*®´´≈Ïö<Ï,(Ë 2vz¨£èÃÀΩÃ÷„Ãºäˇh-8N ≤Q˛`4ã5˝ˆCË*P*"uCmI3ç¸8˛¨£‡d´ÕÂvä£Mb®¿ª9™”¨;ÀSœç÷t„F Ωl–;soß“Eˆ®¿∆™5“$˜≥
++ƒ) P“&mK∆⁄éªPœ¢‡T
+R µ‹”∂≈ˆ&Ø—9ËtsÛC]DÉfÀíQW]√€i≤_-ñGˆà•ÏõänH∂·£@E“Ah+ïJ©N &çÄ10ìØJ† 8F~K°Ì“ç`cpÚ¯]Êú√!:⁄†S£‰Û ®@
+Ñ∑hnhÓÅg6%a6oMˇNˆQîüΩ…Åe(°ç‚ûÚ!éäº0!„ça˛KÜ‹:1Ç}ÉR‚. ØÑ6 ¶£Œvóm/vÚ¡Ê6lm£û˙>L≠3⁄ﬂôˇî`ß.‘º‚ôöjGµ∫Z‚¨ù∫kßƒó—÷Ëp∑*àA/œJ‚ë,áa-I´‚ª„
+j;ê>jñÌÊ5t˛Æ≈
+Í˚9Ë≈smú#FdÀœîrÕ√º¢7.–ºQ§^_Î¯´ tã«~Ÿ›å¥€Ó†5"Ä¥¨ÿg∑ìÎµDNrISq™aƒe”¿‡t'P†>H\¯
+◊<»®)`”´åéûV9fØ6‹Î^ë,Ñ≤ˇ€}Œg_H˜Sç…)oyR¸Ç2?∫ù!:å∂ –ª@ è/7„Enp’""$ÅvZ!Û∏oHÇ‘+òf†vƒêXêJÁ∫”¡(˙å,!t ö˜î)»>∞ì›í“õ âáM $k¨Éù„!ø°„Ñ∏"ëâMC…Øwƒ}dqÄ"}§∏52…g@√"BH∑≈ßºQ,® P¿HøHim,dtä	z˜øßh¿/jºWøàù1Oà¨»“Ó(π<ZaLl‚N‰Ä¡@"E5Û\ìí≥Ûù1)@yJÜ⁄iIÈ⁄V¢IyÈFrZF
+hµŒÌˇlé—ÄGR	K¶±2=J§ 7cYë/î+ê˚
+p$µ§™<Ö)â4Ac‚‡^É5¬Ê$Ôcù¢¿Ê	¥a§S<Bär;oJM…¿:äs$x¸&°ˆËPÚú∫|c5ïdHÅ†`‚JD∫áùÃahY™bäi+¢î
+!k⁄b¿°ˇ¨aºX√∑p%+ÌàKq;º&j áä—°›î†+è:ìx(å'5∏®	∑RñQ"ÎlÁSZî•⁄ï† hJ†± "+5Àb `l“w·jW∑‰≥ùÍ >’E&$ë~]ïê[™H ∫#pNt©úeT›ë`à‚ˇó –¶-Ìoé•Y–ZºÒÆ"r†Ae´cüıt_]®(21°°µE8ÿ…7;∞§ˆï≥gm.™À4ïÄDˆ
+ ∆Àñ÷  >@d¯¬à|¿‡l∂,0P	µ∆‹Ìnk≠”)B˙-ÑïE&Í⁄Ü‚ˆ°ﬁ$¨DoÎﬁÀ±j∑®B+*QâEÃ-≈=.∂¨±ÙıM,>0„~c›à–ÅUDaóíJ®1òŸÑ|f}HQâO·rºfˇäjG˙F∞z∂-1Sw≤Ωsä†üÄÑ#ö Ö·ûÖ†⁄¬÷Ÿ\∆\ÒÍÇ§QYñ JÖ~®ˇàÍP≠±ã¿{„Ò]1ë|`√üPBPˇ™ VèÛM±iÈ0\‚ïxƒ úDÚ•îÕ˙q Çî!˘!GN2Æ
+√ V` zÀbó⁄,3∞#2jäëzb˘*⁄3N$sjÅ;Ñxp,Ç¬V4–$üi ?ÑíÅ\ñ:%Œ~àQW¯í≤¸–@u¡8
+%»JWÌuÙ{k€Ë\S“çRB(`|ÑJÈQ5p‚<gáî˙Œ¢ˆÉûì˝•ıB∆a‡∞ö†ßÁÌÑƒΩ6qyÓëXê≈7¡%ˆÎ4åö”˛í®Â¸g„9Ä®ºø†‚È*A`B∂ˇ7≤er”ñ—√*∏Ø•“£ô“N÷˜Ù˝•eÎ¢‘ÚñˆƒCÖMWg°z¡†A±\'<‹ìC±…U\B@"	≈Œ†ƒ5˛õeÉ!fÿ	™géXUà.pƒ&
+1bï/Z‹/∫HÍ¡äNTƒOÏû	+pÀùõ%ŒÖèí´éñéo«µŸ‹I'Ëët]|âEÔG9(A	Edc≈cŒ‡ª∑^ñG{Óf·˜◊{€4Ç•;ŸΩ¨Tï˜√•†D$ñqè‹∆¡úµ\Û›!¬@–ŸsÁ∏É>ﬁ8§˝È ÇﬂMQè§>Â	ß«)(1	f‡C·‰ºÔ %ØÒîaˆ…º«Ÿ{ˇœè$äòD) Azìõ~‹‡Æ«),!âD∏{Nç√êŒ)UV]<ñü}_ÁˆmöÈhƒ$L¯ÇÈΩ6º%œ&öÓQè¸÷k/y*$…µ8tÔ-óéDÇß ø^3ø≥;*w0√CºFPÁÉ•ääΩÃöπÎª<xÉùr.◊Íº@H4X=ˇC‚£å~‡áŸ¿p‚&v†Tà{òâ‘£IhΩ¿˙µsí;çõøù´∂k ¿t®ﬂõKp¸{†ÖYòÖ ß4,BA§ÖZPáê‡TXΩD`?‹røã≤$fŸ9	ú9Ì;•5·2áBvPJ∞Ñ¿≥áˇZ†Ö"åÖkX*%≥ÈaáI@ÖYxB[∏u0ıkÑeP41S¨≤¡@∞ΩâÀ¡9*9‹JáªS06d√"<¬£íCq¬;ƒ√Z∏[†SXΩÃµ§/ú∂[i)ˆB¥o+±t(l√I4B$<¢KÑ•LºCZ∞=úÖ’ãÏµ>™<Ä∫Ó1E	π¡d+•ØÉWt¥e æRHÖ6¥∆X∞≈È¡≈#¬Iÿ≈^¥PîøÀìÀ¬Èã?eÏ0d Ç39D(#XªSòZåÑ•mÑ oº«^LJ0PåE∏Bsîä˜”údDåeåêD¢E$∑y<Ñˇ3¥ÑI8k§X–«[ÑØ/c¢jÄÖ6¥ÖY(K∏HEHÑC0e ;RÑ"Ü4TÑ#<¡¿VL:t`Äò#0ãúÑjlCé\•];?À©ÜXx¬Y0îúE@ülÄ@≤ªúÏy8∏®”Hç	åáT kÚ+1¥ {@ X ò"¯I44ÖjúÖX(G‚Gœ∞•¨ÖÄ¨BñúÅH 8Äs∞ ‹J,t$ƒÜ\GØtwlÄ≠¢Ãê0 8ÄHÄ‡…"8CJÄKπ§Àè$<Û†•¸EIêÑ®$X 0Ä  ¡åÃ‹*'àÉø√úIC¸)›*âL∫s  ˇ(  ¥Ãù$E∏»TàÀπå£$¿å¶îE8"h 8Ä÷ÏÖ^∏∆ãÕr≥/-îΩØLLŒ≤…†*˝ÎŒ{8ﬂN@Ä‡I„LAœ\N≥3Aë†X0ÖË,ÇH Ï<ÓÏŒÁ”®öæ˙ò™àÒ‡dcÃ∆Å«ıı<á^Œ˜lÄD∞ÑSÄ√˙<∫Ê	lˇÃŒÌî–î%Ö§ôR YèUêÖQá¿õÍ∏?¿…="ı¥P¥DJËPÉ˚–˚¸áRPeP=¨Ã)EÑÿYêRï“Q¢›‹Q&Â&
+EÄCPî;>ëPN.ï¡Ô§¡ˇ òR)ç—5Õ €æg4SÕ”õ”@|ª®ZSYËÉ*]”¯:≤º”\´ÀA-1A$&XSAÑWò“Pÿ -EOC•/\,SJu/ò§	pÑ)eTGïPÇk‚ML≈≠B5U˜"∆@0∆í  0 FıÑPHÇ Å0|†Tu4TÂU,ÃSÕ˘ ÄËS Å¿’∆‘_U4_u÷Ÿr"Ωiòa-÷cM÷ hûRç÷¿Ç÷n=Sÿk	 VcdÇ\-”@hW¨”1}◊L≈ cº	 8V ÇÓ¨y-±oÿ£:G"±÷}’Vn€;»,ÿgç◊£|Xˇ˙r@"!W}=W◊!⁄“â≠‘àQèVq≈	b=÷~ÂàtWëçCê5RñïAËìæ¯ å’ ∏fÖŸèeŒó›Ÿ&’Ó!◊>≠Ç–à¸k◊üÌ2ó]B•Zâ  ⁄‡Vßu(ÇµZq≤ 1h+ê”¨X¶ùC∞5ÿù0€Ä%€S€¥3≥ÂA∂Ö◊ûmZ∏u®n@Év†€∞ï€±Õ€æL¨ı€¿M8¿‹¬%‘µ5‹ƒ-:¬U‹∆ıVƒu‹»ÌU»ï‹ u/∆µ‹Ã≈±-âŒı‹œ›–›—%›“5›”E›‘U›’e›÷u]◊›€◊ï›Ÿ•›⁄µ›€≈›‹ı‹ûıˇ–áupÜ_»!ﬁ‚5ﬁ„Eﬁ‰UﬁÂeﬁÊuﬁÁÖﬁË]ﬁ	Í›ﬂﬁ·ïﬁÏ’ﬁÌÂﬁÓıﬁÔÖ^Í•ﬂ^·ﬂÛEﬂÙUﬂı_Òù	ÚΩ^ˆïﬂ˘•ﬂ˙]_˜	¯5_˚Âﬂ˛ıﬂˇ-^¸	˝≈^ 6‡F`Ù≈	∆\H‡ñ‡	^ﬁf‡›wp`¯Ö^‡\¯‡Œa&·6·.·FaV·Ü·ña¶·Æ·∂·∆·æ·÷aa`pÜwÿåÍÖásh`‡‡_`‚&v‚'Ü‚(ñ‚)¶‚*∂‚+∆‚,÷‚-Ê‚.ˆb+V‚f8x–áÈÒáÄ{XágpÜ5f„6v„7Ü„8ñ„9¶„:∂„;∆„<÷„=Ê„>÷„sXá{ò0ﬂΩxxáuP‰Ef‰Fv‰GÜ‰Hñ‰I¶‰J∂‰K∆‰L÷‰MÊ‰K~x∏á"∂ﬂ’áR6ÂSFÂTVÂUfÂVvÂWÜÂXñÂY¶ÂZ∂Â[∂ÂAÜâÄ  ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Define a turret station</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Define a turret station</div>
+      <hr noshade="true">
+      <div class="contentType_">
+         <p class="para_topic">The existing turret stations have all been used. These steps define an additional turret station for the threading tool.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Create Tool</b> <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic630.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">TURRET_STATION</b> <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic644.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Select <b class="uiTerm">TURRET</b> from the <b class="uiTerm">Tool</b> list.
+            </p>
+         </div>
+         <table bgcolor="#D0D0D0" border="1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="183*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="241*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Tool</p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">Turret</b></p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">station_10</b> in the <b class="uiTerm">Name</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b>. 
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">10</b> in the <b class="uiTerm">Pocket Number</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b> to complete the turret station. 
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Define thread parameters</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Define thread parameters</div>
+      <hr noshade="true">
+      <div class="contentType_"><span id="ndxgenid_camex_turn_109"></span><p class="para_topic">These steps define the crest line, depth, angle, length, and pitch of the thread.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Select Crest Line</b>
+               <img align="bottom" src="../graphics/nonLocalized/nx/iconLibrary/24x24/selection_cursor.lc.white.png" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Select the end of the horizontal line where you wish to start the thread cut.
+            </p>
+         </div>
+         <p align="center"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic5.gif"></p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Select <b class="uiTerm">Depth and Angle</b> from the <b class="uiTerm">Depth Option</b> list.
+            </p>
+         </div>
+         <table bgcolor="#D0D0D0" border="1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="183*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="241*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Depth Option</p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">Depth and Angle</b></p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">1.0</b> in the <b class="uiTerm">Depth</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">180.0</b> in the <b class="uiTerm">Angle from XC</b> box.
+            </p>
+         </div>
+         <p class="para_topic">You will need to extend the cut length at each end to account for the chamfer and the end of the part.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Expand the <b class="uiTerm">Offset</b> section of the dialog box <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic627.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">3.0</b> in the <b class="uiTerm">Start Offset</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">3.0</b> in the <b class="uiTerm">End Offset</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Cutting Parameters</b>
+               <img align="bottom" src="../graphics/nonLocalized/nx/iconLibrary/24x24/cuttingmoves.lc.white.png" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click the <b class="uiTerm">Pitch</b> tab.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Verify the pitch <b class="uiTerm">Distance</b> is <b class="uiTerm">1.0000</b>.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b>.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Specify non-cutting moves</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Specify non-cutting moves</div>
+      <hr noshade="true">
+      <div class="contentType_">
+         <p class="para_topic">These steps specify a motion type that allows the tool to avoid the part before and after cutting.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Non Cutting Moves</b> <img align="bottom" src="../graphics/nonLocalized/nx/iconLibrary/24x24/noncuttingmoves.lc.white.png" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click the <b class="uiTerm">Approach</b> tab.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Under <b class="uiTerm">Motion to Start of Engage</b>, select <b class="uiTerm">Radial&rarr;Axial</b> from the <b class="uiTerm">Motion Type</b> list. 
+            </p>
+         </div>
+         <table bgcolor="#D0D0D0" border="1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="183*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="241*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Motion Type</p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic590.gif" border="0"><b class="uiTerm">Radial-&gt;Axial</b></p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click the <b class="uiTerm">Departure</b> tab.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Under <b class="uiTerm">Motion to Return Point / Clearance Plane</b>, select <b class="uiTerm">Axial&rarr;Radial</b> from the <b class="uiTerm">Motion Type</b> list. 
+            </p>
+         </div>
+         <table bgcolor="#D0D0D0" border="1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="183*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="241*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Motion Type</p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic6.gif" border="0"><b class="uiTerm">Axial-&gt;Radial</b></p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b> to accept the <b class="uiTerm">Non Cutting Moves</b> dialog box.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Create the thread ID operation</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Create the thread ID operation</div>
+      <hr noshade="true">
+      <div class="contentType_">
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Create Operation</b> <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic633.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Thread ID</b> <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic646.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Specify the following.
+            </p>
+         </div>
+         <table bgcolor="white" border="1.1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="49*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="49*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"> Program</p>
+                     
+                  </td>
+                  
+                  <td colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">1234</b></p>
+                     
+                  </td>
+                  
+                  <td align="right" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+               <tr>
+                  
+                  <td colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Tool</p>
+                     
+                  </td>
+                  
+                  <td colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">ID_THREAD_L</b></p>
+                     
+                  </td>
+                  
+                  <td align="right" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+               <tr>
+                  
+                  <td colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Geometry</p>
+                     
+                  </td>
+                  
+                  <td colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">AVOIDANCE</b></p>
+                     
+                  </td>
+                  
+                  <td align="right" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+               <tr>
+                  
+                  <td colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Method</p>
+                     
+                  </td>
+                  
+                  <td colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">LATHE_THREAD</b></p>
+                     
+                  </td>
+                  
+                  <td align="right" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b>.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Define a turret station</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Define a turret station</div>
+      <hr noshade="true">
+      <div class="contentType_">
+         <p class="para_topic">The existing turret stations have all been used. These steps define an additional turret station for the threading tool.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Create Tool</b>
+               <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic630.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">TURRET_STATION</b> <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic644.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Select <b class="uiTerm">TURRET</b> from the <b class="uiTerm">Tool</b> list.
+            </p>
+         </div>
+         <table bgcolor="#D0D0D0" border="1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="183*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="241*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Tool</p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><b class="uiTerm">Turret</b></p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">station_09</b> in the <b class="uiTerm">Name</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b>. 
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Type <b class="uiTerm">9</b> in the <b class="uiTerm">Pocket Number</b> box.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b> to complete the turret station. 
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Define part geometry</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Define part geometry</div>
+      <hr noshade="true">
+      <div class="contentType_"><span id="ndxgenid_camex_turn_15"></span><span id="ndxgenid_camex_turn_16"></span><div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">In the Operation Navigator, double-click <b class="uiTerm">WORKPIECE</b> to edit the group.
+            </p>
+         </div>
+         <table border="1" cellpadding="0" cellspacing="1" frame="void" rules="none" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td align="left" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last">GEOMETRY<br/><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic390.gif" border="0">Unused Items<br/><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic384.gif" border="0">MCS_SPINDLE<br/><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic385.gif" border="0"><b class="uiTerm">WORKPIECE</b><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic392.gif" border="0"><br/><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic386.gif" border="0">TURNING_WORKPIECE<br/><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic552.gif" border="0">AVOIDANCE
+                     </p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Specify Part</b> <img align="bottom" src="../graphics/nonLocalized/nx/iconLibrary/24x24/mill_geom.lc.white.png" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Select the part body.
+            </p>
+         </div>
+         <p class="para_topic">Use the QuickPick list (<img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic652.gif" border="0">) to be sure you select the part geometry and not the bar stock.
+         </p>
+         <p align="center"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic486.gif"></p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">In the <b class="uiTerm">Part Geometry</b> dialog box, click <b class="uiTerm">OK</b>.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">Material: CARBON STEEL</b> <img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic1.gif" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Select <b class="uiTerm">MATO_00266</b> from the <b class="uiTerm">Part Material</b> list.
+            </p>
+         </div>
+         <p class="para_topic">This specifies aluminum as the part material.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Click <b class="uiTerm">OK</b>.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Û
+ªÀXc           @` s¿   d  d l  m Z m Z m Z d  d l Z d  d l m Z d g Z d e f d Ñ  É  YZ e	 d k rº d  d l
+ m Z e j d É d  d	 l m Z e d
+ d É Z e j É  e e j É  É n  d S(   i    (   t   divisiont   absolute_importt   print_functionN(   t	   FCompilert   NAGFCompilerc           B` sñ   e  Z d  Z d Z d Z i d d g d 6d d g d 6d d g d	 6d g d
+ 6d g d 6d d g d 6d g d 6Z d Ñ  Z d Ñ  Z d Ñ  Z d Ñ  Z	 RS(   t   nags   NAGWare Fortran 95 Compilers7   NAGWare Fortran 95 compiler Release (?P<version>[^\s]*)s   <F90>s   -Vt   version_cmdt   f95s   -fixedt   compiler_f77t   compiler_fixt   compiler_f90t	   linker_sot   ars   -crt   archivert   ranlibc         C` s    t  j d k r d d g Sd g S(   Nt   darwins   -unsharedf95s/   -Wl,-bundle,-flat_namespace,-undefined,suppresss   -Wl,-shared(   t   syst   platform(   t   self(    (    sx   c:\users\70270\numpy\python2712-misc\lib\site-packages\numpy-1.12.0-py2.7-win-amd64.egg\numpy\distutils\fcompiler\nag.pyt   get_flags_linker_so   s    
+c         C` s   d g S(   Ns   -O4(    (   R   (    (    sx   c:\users\70270\numpy\python2712-misc\lib\site-packages\numpy-1.12.0-py2.7-win-amd64.egg\numpy\distutils\fcompiler\nag.pyt   get_flags_opt   s    c         C` s0   |  j  É  } | r% | d k  r% d g Sd g Sd  S(   Ns   5.1s   -target=nativet    (   t   get_version(   R   t   version(    (    sx   c:\users\70270\numpy\python2712-misc\lib\site-packages\numpy-1.12.0-py2.7-win-amd64.egg\numpy\distutils\fcompiler\nag.pyt   get_flags_arch   s    c         C` s   d d d d d g S(   Ns   -gs   -glines   -g90s   -nans   -C(    (   R   (    (    sx   c:\users\70270\numpy\python2712-misc\lib\site-packages\numpy-1.12.0-py2.7-win-amd64.egg\numpy\distutils\fcompiler\nag.pyt   get_flags_debug$   s    (
+   t   __name__t
+   __module__t   compiler_typet   descriptiont   version_patternt   executablesR   R   R   R   (    (    (    sx   c:\users\70270\numpy\python2712-misc\lib\site-packages\numpy-1.12.0-py2.7-win-amd64.egg\numpy\distutils\fcompiler\nag.pyR      s   
+
+			t   __main__(   t   logi   (   t   new_fcompilert   compilerR   (   t
+   __future__R    R   R   R   t   numpy.distutils.fcompilerR   t	   compilersR   R   t	   distutilsR!   t   set_verbosityR"   R#   t	   customizet   printR   (    (    (    sx   c:\users\70270\numpy\python2712-misc\lib\site-packages\numpy-1.12.0-py2.7-win-amd64.egg\numpy\distutils\fcompiler\nag.pyt   <module>   s   	
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <?xml version="1.0" encoding="utf-8"?>
+<ADLMSTRINGTABLE VERSION="1.0.0.0">
+    <STRING ID="IDS_NWLIC_BUTTON_YES">
+       <CAPTION>„ÅØ„ÅÑ</CAPTION>
+       <COMMENT>Button caption Yes</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BUTTON_NO">
+       <CAPTION>„ÅÑ„ÅÑ„Åà</CAPTION>
+       <COMMENT>Button caption No</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_CAPTION1">
+       <CAPTION>„É©„Ç§„Çª„É≥„Çπ„ÅØÂÄüÁî®„Åï„Çå„Åæ„Åó„Åü</CAPTION>
+       <COMMENT>License Borrow information title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_CAPTION2">
+       <CAPTION>„É©„Ç§„Çª„É≥„ÇπÂÄüÁî®„Ç®„É©„Éº</CAPTION>
+       <COMMENT>License Borrow Error title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_CAPTION1">
+       <CAPTION>„É©„Ç§„Çª„É≥„Çπ„ÅØËøîÂç¥„Åï„Çå„Åæ„Åó„Åü</CAPTION>
+       <COMMENT>License Return information title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_CAPTION2">
+       <CAPTION>„É©„Ç§„Çª„É≥„ÇπËøîÂç¥„Ç®„É©„Éº</CAPTION>
+       <COMMENT>License Return Error title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_CAPTION3">
+       <CAPTION>ÂÄüÁî®„Åó„Åü„É©„Ç§„Çª„É≥„Çπ„ÇíËøîÂç¥</CAPTION>
+       <COMMENT>License Return Confirmation title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_ERROR_CAPTION1">
+       <CAPTION>Âà©Áî®„Åß„Åç„Å™„ÅÑ„É©„Ç§„Çª„É≥„Çπ„ÅÆË≠¶Âëä</CAPTION>
+       <COMMENT>General License Unavailable error title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_INVALID_MAX_TITLE">
+       <CAPTION>ÁèæÂú®„ÄÅ„É©„Ç§„Çª„É≥„Çπ„ÇíÂÄüÁî®„Åô„Çã„Åì„Å®„ÅØ„Åß„Åç„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+       <COMMENT>Invalid maximum borrow hours specified dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_INVALID_MAX_DETAIL">
+       <CAPTION>„É©„Ç§„Çª„É≥„Çπ „Çµ„Éº„Éê„Å´Ë®≠ÂÆö„Åï„Çå„ÅüË≤∏„ÅóÂá∫„ÅóÊúüÈñì„ÅåÊúâÂäπ„Åß„ÅØ„ÅÇ„Çä„Åæ„Åõ„Çì„ÄÇ&lt;br&gt;&lt;br&gt;„Ç∑„Çπ„ÉÜ„É†ÁÆ°ÁêÜËÄÖ„Å´Áõ∏Ë´á„Åó„Å¶„ÄÅÂ∞ë„Å™„Åè„Å®„ÇÇ 1 Êó•(24 ÊôÇÈñì)„ÅÆÊúâÂäπÊúüÈñì„ÇíÊåÅ„Å¶„Çã„Çà„ÅÜ„ÄÅ„Ç∑„Çπ„ÉÜ„É†„ÅÆÂÄ§„Çí„É™„Çª„ÉÉ„Éà„Åó„Å¶„ÇÇ„Çâ„Å£„Å¶„Åè„Å†„Åï„ÅÑ„ÄÇ</CAPTION>
+       <COMMENT>Invalid maximum borrow hours specified dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_NOW_DETAIL">
+       <CAPTION>ÂÄüÁî®„Åó„Åü„É©„Ç§„Çª„É≥„Çπ„Çí‰ªä„ÄÅËøîÂç¥„Åó„Åæ„Åô„Åã?</CAPTION>
+       <COMMENT>Return the borrowed license now confirmation question dialog message</COMMENT>
+    </STRING>  
+    <STRING ID="IDS_NWLIC_RETURN_SUCCESS_TITLE">
+       <CAPTION>ÂÄüÁî®„Åï„Çå„Åü„É©„Ç§„Çª„É≥„Çπ„ÅØÊ≠£Â∏∏„Å´ËøîÂç¥„Åï„Çå„Åæ„Åó„Åü„ÄÇ</CAPTION>
+       <COMMENT>The borrowed license is returned back to the license server dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_NOLIC_TITLE">
+       <CAPTION>ÂÄüÁî®„Åß„Åç„Çã„É©„Ç§„Çª„É≥„Çπ„Åå„ÅÇ„Çä„Åæ„Åõ„Çì„ÄÇ„ÅÇ„Å®„Åß„ÇÇ„ÅÜ‰∏ÄÂ∫¶Ë©¶„Åó„Å¶„Åø„Å¶„Åè„Å†„Åï„ÅÑ„ÄÇ</CAPTION>
+       <COMMENT>No licenses available to borrow message</COMMENT>
+    </STRING>  
+    <STRING ID="IDS_NWLIC_BORROW_FAILED_TITLE">
+	 <CAPTION>ÁèæÂú®„ÄÅ„É©„Ç§„Çª„É≥„Çπ„ÇíÂÄüÁî®„Åô„Çã„Åì„Å®„ÅØ„Åß„Åç„Åæ„Åõ„Çì„ÄÇ„ÅÇ„Å®„Åß„ÇÇ„ÅÜ‰∏ÄÂ∫¶Ë©¶„Åó„Å¶„Åø„Å¶„Åè„Å†„Åï„ÅÑ„ÄÇ</CAPTION>
+       <COMMENT>License cannot be borrowed at this time dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_FAILED_NOTE_DETAIL">
+	 <CAPTION>„ÇÇ„Åó„Åì„ÅÆÂïèÈ°å„ÅåÁ∂ö„ÅèÂ†¥Âêà„ÅØ„ÄÅ„Ç∑„Çπ„ÉÜ„É†ÁÆ°ÁêÜËÄÖ„Å´„ÅäÂïè„ÅÑÂêà„Çè„Åõ„Åè„Å†„Åï„ÅÑ„ÄÇ&lt;br&gt;&lt;br&gt;Ê≥®: „Éç„ÉÉ„Éà„ÉØ„Éº„ÇØ „É©„Ç§„Çª„É≥„Çπ „Çµ„Éº„Éê„Å´Êé•Á∂ö„Åô„Çå„Å∞„ÄÅ%1 „ÅÆ‰ΩøÁî®„ÇíÁ∂ôÁ∂ö„Åß„Åç„Åæ„Åô„ÄÇ&lt;br&gt;&lt;br&gt;„Ç®„É©„Éº: [%2]</CAPTION>
+       <COMMENT>No licenses available to borrow message displayed with the vendor error code and the product name</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_FAILED_NO_NOTE_DETAIL">
+	 <CAPTION>„ÇÇ„Åó„Åì„ÅÆÂïèÈ°å„ÅåÁ∂ö„ÅèÂ†¥Âêà„ÅØ„ÄÅ„Ç∑„Çπ„ÉÜ„É†ÁÆ°ÁêÜËÄÖ„Å´„ÅäÂïè„ÅÑÂêà„Çè„Åõ„Åè„Å†„Åï„ÅÑ„ÄÇ&lt;br&gt;&lt;br&gt;„Ç®„É©„Éº: [%1]</CAPTION>
+       <COMMENT>No licenses available to borrow message displayed with the vendor error code</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_TITLE">
+	 <CAPTION>‰∫àÊúü„Åó„Å™„ÅÑ„É©„Ç§„Çª„É≥„ÇπÂÄüÁî®„ÅÆ„Ç®„É©„Éº„ÅåÁô∫Áîü„Åó„Åæ„Åó„Åü„ÄÇ</CAPTION>
+       <COMMENT>This message is due to inability to get the borrowing of license</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_DETAIL">
+	 <CAPTION>ÂÄüÁî®„Åó„Åü„É©„Ç§„Çª„É≥„Çπ„Çí‰ΩøÁî®„Åó„Å¶ %1 „ÇíËµ∑Âãï„Åô„Çã„Åì„Å®„ÅØ„Åß„Åç„Åæ„Åõ„Çì„ÄÇ&lt;br&gt;&lt;br&gt;Ë©≥Á¥∞„ÅØ„Ç∑„Çπ„ÉÜ„É†ÁÆ°ÁêÜËÄÖ„Å´„ÅäÂïè„ÅÑÂêà„Çè„Åõ„Åè„Å†„Åï„ÅÑ„ÄÇ&lt;br&gt;&lt;br&gt;„Ç®„É©„Éº: [%2]</CAPTION>
+       <COMMENT>This message is due to inability to get the borrowing of license</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_TOOLONG_TITLE">
+	 <CAPTION>„Åì„ÅÆ„É©„Ç§„Çª„É≥„Çπ„ÅØÊúÄÈï∑ %1 Êó•ÈñìÂÄüÁî®„Åô„Çã„Åì„Å®„Åå„Åß„Åç„Åæ„Åô„ÄÇ</CAPTION>
+       <COMMENT>This is borrow period ( maximum hours) specified is too long message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_TOOLONG_DETAIL">
+	 <CAPTION>„É©„Ç§„Çª„É≥„Çπ„ÅÆÂÄüÁî®ÊúüÈñì„Çí„É™„Çª„ÉÉ„Éà„Åô„Çã„Å´„ÅØ„ÄÅ„Ç™„Éº„Éà„Éá„Çπ„ÇØ „É©„Ç§„Çª„É≥„ÇπÂÄüÁî®„É¶„Éº„ÉÜ„Ç£„É™„ÉÜ„Ç£„Çí‰ΩøÁî®„Åó„Å¶„ÇÇ„ÅÜ‰∏ÄÂ∫¶Ë°å„Å£„Å¶„Åè„Å†„Åï„ÅÑ„ÄÇ&lt;br&gt;&lt;br&gt;„Ç®„É©„Éº [%1]</CAPTION>
+       <COMMENT>This is borrow period (maximums hours) specified is too long message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LICENSING_ERROR_TITLE">
+	 <CAPTION>„Éç„ÉÉ„Éà„ÉØ„Éº„ÇØ „É©„Ç§„Çª„É≥„Çπ„Åå‰ΩøÁî®„Åß„Åç„Åæ„Åõ„Çì</CAPTION>
+       <COMMENT>Generic licensing error while trying to get the license from the license server displayed with the vendor error code</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LICENSING_ERROR_DETAIL">
+	 <CAPTION>„Çà„Åè„ÅÇ„ÇãÂéüÂõ†: „Åô„Åπ„Å¶„ÅÆ„É©„Ç§„Çª„É≥„Çπ„Åå‰ΩøÁî®‰∏≠„ÄÅ„Çµ„Éº„Éê„Åå„ÉÄ„Ç¶„É≥„Åó„Å¶„ÅÑ„Çã„ÄÅ„Åæ„Åü„ÅØ„É©„Ç§„Çª„É≥„Çπ„ÅåÊúüÈôêÂàá„Çå„ÄÇ„Ç∑„Çπ„ÉÜ„É†ÁÆ°ÁêÜËÄÖ„Åæ„Åü„ÅØ„Çµ„Éù„Éº„Éà„Å´Âïè„ÅÑÂêà„Çè„Åõ„Å¶„Åè„Å†„Åï„ÅÑ„ÄÇ&lt;br&gt;&lt;br&gt;„Ç®„É©„Éº [%1]</CAPTION>
+       <COMMENT>Generic licensing error while trying to get the license from the license server displayed with the vendor error code</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LOST_LICENSE_CAPTION">
+	 <CAPTION>Âà©Áî®„Åß„Åç„Å™„ÅÑ„É©„Ç§„Çª„É≥„Çπ„ÅÆË≠¶Âëä</CAPTION>
+       <COMMENT>The connection to the license server is lost hence the license will not available dialog caption</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LOST_LICENSE_TITLE">
+	 <CAPTION>„É©„Ç§„Çª„É≥„Çπ„ÅåÊúâÂäπ„Åß„ÅØ„ÅÇ„Çä„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+       <COMMENT>The connection to the license server is lost hence the license will not available dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LOST_LICENSE_DETAIL">
+	 <CAPTION>„É©„Ç§„Çª„É≥„Çπ„ÇíÂÜç„Å≥ÊúâÂäπ„Å´„Åô„Çã„Å´„ÅØ„ÄÅË£ΩÂìÅ„ÇíÁµÇ‰∫Ü„Åó„ÄÅ„ÇÇ„ÅÜ‰∏ÄÂ∫¶Ëµ∑Âãï„Åó„Å¶„Åè„Å†„Åï„ÅÑ„ÄÇ</CAPTION>
+       <COMMENT>The connection to the license server is lost hence the license will not available dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH1">
+       <CAPTION>1Êúà</CAPTION>
+       <COMMENT>First Month of the english calendar</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH2">
+       <CAPTION>2Êúà</CAPTION>
+       <COMMENT>Second Month of the english calendar</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH3">
+       <CAPTION>3Êúà</CAPTION>
+       <COMMENT>Third Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH4">
+       <CAPTION>4Êúà</CAPTION>
+       <COMMENT>Fourth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH5">
+       <CAPTION>5Êúà</CAPTION>
+       <COMMENT>Fifth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH6">
+       <CAPTION>6Êúà</CAPTION>
+       <COMMENT>Sixth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH7">
+       <CAPTION>7Êúà</CAPTION>
+       <COMMENT>Seventh Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH8">
+       <CAPTION>8Êúà</CAPTION>
+       <COMMENT>Eigth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH9">
+       <CAPTION>9Êúà</CAPTION>
+       <COMMENT>Ninth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH10">
+       <CAPTION>10Êúà</CAPTION>
+       <COMMENT>Tenth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH11">
+       <CAPTION>11Êúà</CAPTION>
+       <COMMENT>Eleventh Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH12">
+       <CAPTION>12Êúà</CAPTION>
+       <COMMENT>Twelth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY0">
+       <CAPTION>Êó•ÊõúÊó•</CAPTION>
+       <COMMENT>First Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY1">
+       <CAPTION>ÊúàÊõúÊó•</CAPTION>
+       <COMMENT>Second Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY2">
+       <CAPTION>ÁÅ´ÊõúÊó•</CAPTION>
+       <COMMENT>Third Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY3">
+       <CAPTION>Ê∞¥ÊõúÊó•</CAPTION>
+       <COMMENT>Fourth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY4">
+       <CAPTION>Êú®ÊõúÊó•</CAPTION>
+       <COMMENT>Fifth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY5">
+       <CAPTION>ÈáëÊõúÊó•</CAPTION>
+       <COMMENT>Sixth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY6">
+       <CAPTION>ÂúüÊõúÊó•</CAPTION>
+       <COMMENT>Seventh Day of the week</COMMENT>
+    </STRING>
+  <STRING ID="IDS_LICENSING_ERROR_CAPTION">
+    <CAPTION>„É©„Ç§„Çª„É≥„Çπ „Ç®„É©„Éº</CAPTION>
+    <COMMENT>Licensing error dialog title</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_INIT_ERROR_TITLE">
+    <CAPTION>ADLM „ÇíÂàùÊúüÂåñ„Åß„Åç„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error title</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_INVALIDPARAM_MSG">
+    <CAPTION>„Éë„É©„É°„Éº„Çø„ÅåÁÑ°Âäπ„Åß„Åô„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage invalid parameter error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_UNKNOWN">
+    <CAPTION>‰∏çÊòé„Å™„Ç®„É©„Éº„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>  
+  <STRING ID="IDS_LICTS_FLEX_INIT_NOPROPHANDLE_MSG">
+    <CAPTION>„Éó„É≠„Éë„ÉÜ„Ç£ „Éè„É≥„Éâ„É´„ÅåÁÑ°Âäπ„Åæ„Åü„ÅØË¶ã„Å§„Åã„Çä„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>  
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_1">
+    <CAPTION>„Çª„Ç≠„É•„É™„ÉÜ„Ç£ „É©„É≥„Çø„Ç§„É†„ÅåË¶ã„Å§„Åã„Çä„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_2">
+    <CAPTION>„Çª„Ç≠„É•„É™„ÉÜ„Ç£ „É©„É≥„Çø„Ç§„É†„Çí„É≠„Éº„Éâ„Åß„Åç„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_3">
+    <CAPTION>OS „ÅÆ„Éê„Éº„Ç∏„Éß„É≥„ÅåÂè§„Åô„Åé„Åæ„Åô„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_4">
+    <CAPTION>„Çª„Ç≠„É•„É™„ÉÜ„Ç£ „É©„É≥„Çø„Ç§„É†„ÅÆÂàùÊúüÂåñ„Å´Â§±Êïó„Åó„Åæ„Åó„Åü„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_5">
+    <CAPTION>„É™„ÇΩ„Éº„Çπ„ÇíÂâ≤„ÇäÂΩì„Å¶„Çâ„Çå„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_6">
+    <CAPTION>Preptool „ÅåËµ∑Âãï„Åï„Çå„Å¶„ÅÑ„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_7">
+    <CAPTION>flxInitUnload „ÅÆÂæå„Åß flxInitLoad „Çí„Ç≥„Éº„É´</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_8">
+    <CAPTION>„Éë„Çπ„ÅÆÊñáÂ≠óÂàó„Åå UTF-8 „Åß„ÅØ„ÅÇ„Çä„Åæ„Åõ„Çì</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_9">
+    <CAPTION>URL ‰ΩúÊàê„Ç®„É©„Éº„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_10">
+    <CAPTION>URL „Åã„Çâ„ÅÆ„Éë„Çπ„ÅÆÁîüÊàê„Åß„Ç®„É©„Éº„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_11">
+    <CAPTION>„Éê„É≥„Éâ„É´ ID „ÅßÊåáÂÆö„Åï„Çå„Åü„Éï„É¨„Éº„É†„ÉØ„Éº„ÇØ„Åå„É≠„Éº„Éâ„Åï„Çå„Å¶„ÅÑ„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_12">
+    <CAPTION>ÊúâÂäπ„Å™„Éê„É≥„Éâ„É´ ID „Åß„ÅØ„ÅÇ„Çä„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_13">
+    <CAPTION>Ë®àÁÆó„Åï„Çå„Åü„Éë„Çπ„ÅåÈï∑„Åô„Åé„Åæ„Åô„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_20">
+    <CAPTION>„Çµ„Éº„Éì„Çπ„Åå„Ç§„É≥„Çπ„Éà„Éº„É´„Åï„Çå„Å¶„ÅÑ„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_21">
+    <CAPTION>„Çµ„Éº„Éì„Çπ„Çí‰ΩøÁî®„Åô„ÇãÊ®©Èôê„Åå„ÅÇ„Çä„Åæ„Åõ„Çì„ÄÇ</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICUT_UB_INIT_ERROR">
+    <CAPTION>‰ΩøÁî®Áä∂ÊÖã„ÅÆ„Éà„É©„ÉÉ„Ç≠„É≥„Ç∞ „Ç≥„É≥„Éù„Éº„Éç„É≥„Éà„ÅÆÂàùÊúüÂåñ„Ç®„É©„Éº„ÄÇ</CAPTION>
+    <COMMENT>Adlm usage tracking initialization error message</COMMENT>
+  </STRING>
+</ADLMSTRINGTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+This software and related documentation are proprietary to Siemens Product Lifecycle Management Software Inc.
+
+(c) 2013 Siemens Product Lifecycle Management Software Inc. All Rights Reserved. 
+
+All trademarks belong to their respective holders.
+-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Especificaci&oacute;n de los movimientos sin corte</title>
+      <script xmlns="http://www.plm.automation.siemens.com/lmd/tools/xps/xpsDocument" language="javaScript">
+        abridged="false";
+        top.init();
+        displayConditions=new Array();
+      </script>
+      <link type="text/css" href="../css/base.css" rel="stylesheet">
+   </head>
+   <body class="bodydocs" onload="top.pageLoader()" onresize="top.pageResize()" bgcolor="#FFFFFF">
+      <div class="title_topic3" id="xps10_pagetitle">Especificaci&oacute;n de los movimientos sin corte</div>
+      <hr noshade="true">
+      <div class="contentType_"><span id="ndxgenid_camex_turn_67"></span><span id="ndxgenid_camex_turn_68"></span><p class="para_topic">Estos pasos especifican un movimiento al punto de retorno que evita la colisi&oacute;n con la pieza.</p>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Pulse <b class="uiTerm">Movimientos sin corte</b> <img align="bottom" src="../graphics/nonLocalized/nx/iconLibrary/24x24/noncuttingmoves.lc.white.png" border="0">.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Pulse la pesta&ntilde;a <b class="uiTerm">Partida</b>.
+            </p>
+         </div>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">En la secci&oacute;n <b class="uiTerm">Movimiento al punto de retorno / Plano de seguridad</b>, seleccione <b class="uiTerm">Radial&rarr;Axial</b> en la lista <b class="uiTerm">Tipo de movimiento</b>.
+            </p>
+         </div>
+         <table bgcolor="#D0D0D0" border="1" cellpadding="2" cellspacing="0" frame="void" rules="none" width="250" align="center">
+            
+            <colgroup span="1">
+               
+               <col span="1" width="183*">
+               
+               <col span="1" width="15">
+               
+               <col span="1" width="241*">
+               
+               <col span="1" width="20">
+               
+            </colgroup>
+            
+            <tbody>
+               
+               <tr>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last">Tipo de movimiento</p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" nowrap rowspan="1"></td>
+                  
+                  <td bgcolor="#AFD7E1" colspan="1" nowrap rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/graphic590.gif" border="0"><b class="uiTerm">Radial-&gt;Axial</b></p>
+                     
+                  </td>
+                  
+                  <td bgcolor="white" colspan="1" rowspan="1">
+                     
+                     <p class="para_td_last"><img align="bottom" src="../graphics/nonLocalized/nx/manufacturing/cam_express/turning/1_list_arrow.gif" border="0"></p>
+                     
+                  </td>
+                  
+               </tr>
+               
+            </tbody>
+            
+         </table>
+         <div class="action">
+            <p class="para_action1"><img src="../graphics/actarrow.gif">Pulse <b class="uiTerm">Aceptar</b> para aceptar el cuadro de di&aacute;logo <b class="uiTerm">Movimientos sin corte</b>.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>                                                                         vÃ–Æ      _≤‡_≤‡BTπÜ      6    :https://www.youtube.com/api/stats/watchtime?ns=yt&el=embedded&cpn=vXexgS5A2HnEaK50&docid=M93cm2w5Kcg&ver=2&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2FM93cm2w5Kcg%3Fshowinfo%3D0%26rel%3D0&cmt=11.493&ei=0QGyX53YNJL04-EPmPKi8AY&fmt=244&fs=1&rt=15.016&of=STHdpXb-3Elp_vhdpoLYzg&euri=https%3A%2F%2Fwww.ethoswatches.com%2Fproduct-corum-admiral-395-201-53-0f17-av65.html&lact=194&cl=341914541&state=playing&vm=CAQQARgCKixuT0s1TzRSNm5ybXhZV2hvQk1neUpXbF9sWmQtMzNXMFNUQ3hJMWR2OVdrPToyQU9HdF9PSTB1UG1ySTFJMUhCOGtSX19qVUxsSG9hcEpEZWNWRGdLdWFsbjhvSjd0Y2c&volume=56%2C46%2C46&cbr=Firefox&cbrver=82.0&c=WEB_EMBEDDED_PLAYER&cver=20201112&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&hl=en_US&cr=IN&uga=m21&len=96.561&rtn=25&afmt=251&idpj=-9&ldpj=-4&rti=15&muted=0%2C0%2C0&st=1.509%2C7.64%2C9.84&et=7.59%2C9.746%2C11.493&vis=2%2C2%2C2 necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEANQFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAl0MIIJcDCCCFigAwIBAgIQPIQVyOHjjncCAAAAAH/UkjANBgkqhkiG9w0BAQsFADBCMQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMwEQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMTAyODE2MTgzNloXDTIxMDEyMDE2MTgzNlowZjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxFTATBgNVBAMMDCouZ29vZ2xlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJKPF+uqy3R/HAkdgLq2OXzvyizu11BToFoZYHQpWt1wLtkpjUWTdRXVMCbErjve3jOWB7QrdSWtJxPx60VSCKajggcHMIIHAzAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUwvNaUCsPZszXz0zp9oe2ID8NO3wwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8YkBug630J/SswaAYIKwYBBQUHAQEEXDBaMCsGCCsGAQUFBzABhh9odHRwOi8vb2NzcC5wa2kuZ29vZy9ndHMxbzFjb3JlMCsGCCsGAQUFBzAChh9odHRwOi8vcGtpLmdvb2cvZ3NyMi9HVFMxTzEuY3J0MIIEwgYDVR0RBIIEuTCCBLWCDCouZ29vZ2xlLmNvbYINKi5hbmRyb2lkLmNvbYIWKi5hcHBlbmdpbmUuZ29vZ2xlLmNvbYIJKi5iZG4uZGV2ghIqLmNsb3VkLmdvb2dsZS5jb22CGCouY3Jvd2Rzb3VyY2UuZ29vZ2xlLmNvbYIYKi5kYXRhY29tcHV0ZS5nb29nbGUuY29tggYqLmcuY2+CDiouZ2NwLmd2dDIuY29tghEqLmdjcGNkbi5ndnQxLmNvbYIKKi5nZ3BodC5jboIOKi5na2VjbmFwcHMuY26CFiouZ29vZ2xlLWFuYWx5dGljcy5jb22CCyouZ29vZ2xlLmNhggsqLmdvb2dsZS5jbIIOKi5nb29nbGUuY28uaW6CDiouZ29vZ2xlLmNvLmpwgg4qLmdvb2dsZS5jby51a4IPKi5nb29nbGUuY29tLmFygg8qLmdvb2dsZS5jb20uYXWCDyouZ29vZ2xlLmNvbS5icoIPKi5nb29nbGUuY29tLmNvgg8qLmdvb2dsZS5jb20ubXiCDyouZ29vZ2xlLmNvbS50coIPKi5nb29nbGUuY29tLnZuggsqLmdvb2dsZS5kZYILKi5nb29nbGUuZXOCCyouZ29vZ2xlLmZyggsqLmdvb2dsZS5odYILKi5nb29nbGUuaXSCCyouZ29vZ2xlLm5sggsqLmdvb2dsZS5wbIILKi5nb29nbGUucHSCEiouZ29vZ2xlYWRhcGlzLmNvbYIPKi5nb29nbGVhcGlzLmNughEqLmdvb2dsZWNuYXBwcy5jboIUKi5nb29nbGVjb21tZXJjZS5jb22CESouZ29vZ2xldmlkZW8uY29tggwqLmdzdGF0aWMuY26CDSouZ3N0YXRpYy5jb22CEiouZ3N0YXRpY2NuYXBwcy5jboIKKi5ndnQxLmNvbYIKKi5ndnQyLmNvbYIUKi5tZXRyaWMuZ3N0YXRpYy5jb22CDCoudXJjaGluLmNvbYIQKi51cmwuZ29vZ2xlLmNvbYITKi53ZWFyLmdrZWNuYXBwcy5jboIWKi55b3V0dWJlLW5vY29va2llLmNvbYINKi55b3V0dWJlLmNvbYIWKi55b3V0dWJlZWR1Y2F0aW9uLmNvbYIRKi55b3V0dWJla2lkcy5jb22CByoueXQuYmWCCyoueXRpbWcuY29tghphbmRyb2lkLmNsaWVudHMuZ29vZ2xlLmNvbYILYW5kcm9pZC5jb22CG2RldmVsb3Blci5hbmRyb2lkLmdvb2dsZS5jboIcZGV2ZWxvcGVycy5hbmRyb2lkLmdvb2dsZS5jboIEZy5jb4IIZ2dwaHQuY26CDGdrZWNuYXBwcy5jboIGZ29vLmdsghRnb29nbGUtYW5hbHl0aWNzLmNvbYIKZ29vZ2xlLmNvbYIPZ29vZ2xlY25hcHBzLmNughJnb29nbGVjb21tZXJjZS5jb22CGHNvdXJjZS5hbmRyb2lk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b2dsZS5jb20udHKCDyouZ29vZ2xlLmNvbS52boILKi5nb29nbGUuZGWCCyouZ29vZ2xlLmVzggsqLmdvb2dsZS5mcoILKi5nb29nbGUuaHWCCyouZ29vZ2xlLml0ggsqLmdvb2dsZS5ubIILKi5nb29nbGUucGyCCyouZ29vZ2xlLnB0ghIqLmdvb2dsZWFkYXBpcy5jb22CDyouZ29vZ2xlYXBpcy5jboIRKi5nb29nbGVjbmFwcHMuY26CFCouZ29vZ2xlY29tbWVyY2UuY29tghEqLmdvb2dsZXZpZGVvLmNvbYIMKi5nc3RhdGljLmNugg0qLmdzdGF0aWMuY29tghIqLmdzdGF0aWNjbmFwcHMuY26CCiouZ3Z0MS5jb22CCiouZ3Z0Mi5jb22CFCoubWV0cmljLmdzdGF0aWMuY29tggwqLnVyY2hpbi5jb22CECoudXJsLmdvb2dsZS5jb22CEyoud2Vhci5na2VjbmFwcHMuY26CFioueW91dHViZS1ub2Nvb2tpZS5jb22CDSoueW91dHViZS5jb22CFioueW91dHViZWVkdWNhdGlvbi5jb22CESoueW91dHViZWtpZHMuY29tggcqLnl0LmJlggsqLnl0aW1nLmNvbYIaYW5kcm9pZC5jbGllbnRzLmdvb2dsZS5jb22CC2FuZHJvaWQuY29tghtkZXZlbG9wZXIuYW5kcm9pZC5nb29nbGUuY26CHGRldmVsb3BlcnMuYW5kcm9pZC5nb29nbGUuY26CBGcuY2+CCGdncGh0LmNuggxna2VjbmFwcHMuY26CBmdvby5nbIIUZ29vZ2xlLWFuYWx5dGljcy5jb22CCmdvb2dsZS5jb22CD2dvb2dsZWNuYXBwcy5jboISZ29vZ2xlY29tbWVyY2UuY29tghhzb3VyY2UuYW5kcm9pZC5nb29nbGUuY26CCnVyY2hpbi5jb22CCnd3dy5nb28uZ2yCCHlvdXR1LmJlggt5b3V0dWJlLmNvbYIUeW91dHViZWVkdWNhdGlvbi5jb22CD3lvdXR1YmVraWRzLmNvbYIFeXQuYmUwIQYDVR0gBBowGDAIBgZngQwBAgIwDAYKKwYBBAHWeQIFAzAzBgNVHR8ELDAqMCigJqAkhiJodHRwOi8vY3JsLnBraS5nb29nL0dUUzFPMWNvcmUuY3JsMIIB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 request-method GET response-head HTTP/2 204 No Content
+content-type: text/html; charset=UTF-8
+date: Mon, 16 Nov 2020 04:36:48 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+x-content-type-options: nosniff
+server: Video Stats Server
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=UTF-8
+date: Mon, 16 Nov 2020 04:36:48 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+x-content-type-options: nosniff
+server: Video Stats Server
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 143 net-response-time-onstop 146                                                                                                                                                                                                                                                                                                             

@@ -1,0 +1,204 @@
+/*--------------------Nav&Hero--------------------*/
+.bgimg {
+	background-image: url('https://1.bp.blogspot.com/-AcqZHNPCux8/Xx1o4Vo5u5I/AAAAAAAAAuI/dsHl7cnOX5s4ROCVdYS6yCFy6KEfVBdigCNcBGAsYHQ/s2048/3.png');
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+	
+
+
+
+
+
+/*--------------------AboutMe--------------------*/
+
+
+.aboutme{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: "Optima", Courier, sans-serif;
+
+}
+
+.aboutme h1{
+	position: relative;
+}
+
+
+
+/*--------------------MyWork--------------------*/
+
+.mywork{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: "Optima", Courier, serif;
+}
+
+.mywork h1{
+	padding-bottom: 50px;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+
+.cardbox{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.card:hover{
+	transition: .3s;
+	box-shadow: 10px 20px 20px rgba(0,0,0,0.8);
+}
+
+
+.contactme{
+	padding-top: 50px;
+	padding-bottom: 280px;
+	font-family: "Optima", Courier, sans-serif;
+
+}
+
+.contactme a{
+	position: relative;
+	padding-top: 50px;
+}
+
+.footer{
+	padding-bottom: 10px;
+}
+
+
+/*--------------------MediaQuerry--------------------*/
+
+@media(min-width: 992px){
+	.imgbg{
+	padding-top: 200px;
+	height: 800px;
+	text-shadow: 0px 0px 1px #f8f9fa, 0px 0px 50px #f8f9fa;
+}
+
+.imgbg h1{
+	font-size: 70px;
+}
+
+.imgbg h2{
+	font-size: 30px;
+
+}
+
+.imgbg h3{
+	font-size: 22px;
+
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.imgbg{
+	padding-top: 200px;
+	height: 800px;
+	text-shadow: 0px 0px 1px #f8f9fa, 0px 0px 50px #f8f9fa;
+}
+
+.imgbg h1{
+	font-size: 70px;
+}
+
+.imgbg h2{
+	font-size: 30px;
+
+}
+
+.imgbg h3{
+	font-size: 22px;
+
+}
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+	.imgbg{
+	padding-top: 150px;
+	height: 400px;
+	text-shadow: 0px 0px 1px #f8f9fa, 0px 0px 50px #f8f9fa;
+}
+
+.imgbg h1{
+	font-size: 50px;
+}
+
+.imgbg h2{
+	font-size: 22px;
+
+}
+
+.imgbg h3{
+	font-size: 15px;
+
+}
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+	.bgimg {
+	background-image: url('https://1.bp.blogspot.com/-UZOfU0mWSvA/Xx1o17CNfsI/AAAAAAAAAuE/pZ6Bv11vwVIntvZOjBS8BpWs12FdTm6VwCNcBGAsYHQ/s2048/6.png');
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.imgbg{
+	padding-top: 180px;
+	height: 520px;
+	text-shadow: 0px 0px 1px #f8f9fa, 0px 0px 50px #f8f9fa;
+}
+
+.imgbg h1{
+	font-size: 40px;
+}
+
+.imgbg h2{
+	font-size: 20px;
+
+}
+
+.imgbg h3{
+	font-size: 16px;
+
+}
+}
+
+@media(max-width: 479px){
+	.bgimg {
+	background-image: url('https://1.bp.blogspot.com/-UZOfU0mWSvA/Xx1o17CNfsI/AAAAAAAAAuE/pZ6Bv11vwVIntvZOjBS8BpWs12FdTm6VwCNcBGAsYHQ/s2048/6.png');
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.imgbg{
+	padding-top: 180px;
+	height: 520px;
+	text-shadow: 0px 0px 1px #f8f9fa, 0px 0px 50px #f8f9fa;
+}
+
+.imgbg h1{
+	font-size: 30px;
+}
+
+.imgbg h2{
+	font-size: 15px;
+
+}
+
+.imgbg h3{
+	font-size: 12px;
+
+}
+}
